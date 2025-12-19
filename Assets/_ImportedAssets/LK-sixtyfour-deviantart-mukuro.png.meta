@@ -1,0 +1,1811 @@
+fileFormatVersion: 2
+guid: 12b2b5eff2283c043b9d14aac6d41f4f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 522
+        width: 37
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47782b772e8892419a85a4b07e219a2
+      internalID: -2051726607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 522
+        width: 37
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125b293edd9aa934b89d51cd35ad9e94
+      internalID: -469659732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 522
+        width: 37
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5919be367b9f81449817e1aabe4d83a
+      internalID: 1878034292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 522
+        width: 37
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c0f38a6c90a04409db1ef65950302b
+      internalID: -2051988203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_4
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 523
+        width: 37
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd473ddc10407c4c88d9c7c30c1faf9
+      internalID: 281025826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_5
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 522
+        width: 38
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd2d169932009b4d8f00f83dda71266
+      internalID: 1732122622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_6
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 522
+        width: 39
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2966ffd0128b11c4ea5319f083ea28b9
+      internalID: 665436117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_7
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 522
+        width: 56
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6278198825ab2d6478e08d8fbf5608fd
+      internalID: -410903308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_8
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 521
+        width: 54
+        height: 118
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5112e62de4600fa488b55b8d33ea0731
+      internalID: -387134932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_9
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 520
+        width: 54
+        height: 119
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd844a598c4f78e45be3ec387996c4d9
+      internalID: -1104053121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_10
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 520
+        width: 53
+        height: 112
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c6e588ddfd61548bf5fbd4c5df1753
+      internalID: -1496940004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_11
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 520
+        width: 61
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03cb182d64256b24f93342fda0f02ec8
+      internalID: -1637754841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_12
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 520
+        width: 40
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27bf500f2363d74885e21731edac610
+      internalID: -1162964184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 522
+        width: 37
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11e5b4253d54004293bb3cd62cd26ef
+      internalID: 1404963815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_14
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 522
+        width: 37
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c35a3e9a4730604ab1f8a162d50082d
+      internalID: -1348794230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_15
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 522
+        width: 40
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014390cda5ddf25458974595fae72270
+      internalID: -2055094796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_16
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 522
+        width: 40
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210194e1921d4124a9d07b82581036cb
+      internalID: 2026983644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_17
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 522
+        width: 40
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93dd64946ef499945a4f5aed68aec753
+      internalID: 1226866716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_18
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 522
+        width: 40
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbec993d8506b1a43a0861d60be01237
+      internalID: -1057060244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_19
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 522
+        width: 37
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf9c3be8c220a34b84af77b46721c40
+      internalID: 596358989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_20
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 522
+        width: 37
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02fe947da323044ea49554871bb1605
+      internalID: -103471318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_21
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 399
+        width: 41
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ed9998972fe904e828fdd80e803968
+      internalID: 896308565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_22
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 399
+        width: 53
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528b1136286231c4b940eeac05bf6f41
+      internalID: -1773981764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_23
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 399
+        width: 46
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fe2d85f41a9624483a5008b99d50fc
+      internalID: 616457830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 399
+        width: 35
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86c393300825cc4da131010e6b0eaf1
+      internalID: 1123824931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_25
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 399
+        width: 29
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d20aad0fbf01f4d899c7eac5b5922d
+      internalID: -1629487665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_26
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 398
+        width: 50
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af509234a1589124caf606d444fc8321
+      internalID: -2019323248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_27
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 399
+        width: 41
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9bcde22dfd01a419dc0c7b7d880c65
+      internalID: 1109171552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_28
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 399
+        width: 32
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f5f47d42c4afb4d887e419d01dd3c9
+      internalID: 1549530182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_29
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 398
+        width: 33
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2cf7565db0dca4d8dab64db83a7448
+      internalID: -10695534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_30
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 398
+        width: 34
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4ec7ca64896cc48836d1796e76daea
+      internalID: -1138486481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_31
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 397
+        width: 34
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4a12c19b1bec94dbdd6124cad4f68b
+      internalID: -1137916008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_32
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 398
+        width: 34
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbd25d70ba332e42a679c6316acf42d
+      internalID: -1924862708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_33
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 398
+        width: 34
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76ed737deda90b4eadb954a36997bf5
+      internalID: 1797558487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_34
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 397
+        width: 35
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c400988a6149f44aeb2daf42c978f1
+      internalID: -130043553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_35
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 395
+        width: 34
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec868d97ea994f4ea6f875495964aa7
+      internalID: -1056337362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_36
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 397
+        width: 34
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf4d9992b6bbc04dba19ab444824c91
+      internalID: -1853778732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_37
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 396
+        width: 33
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396674f3d6024f74f898813779a7990e
+      internalID: -1330384722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_38
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 396
+        width: 33
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146a435622b67014e9c6cbad19ebb2b0
+      internalID: -1860017400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_39
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 397
+        width: 33
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e27e98e0569ae443a7cde3fc855beb8
+      internalID: -671443676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_40
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 395
+        width: 34
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2000c42e3dacbf44a6a59a4f5b9f7a9
+      internalID: -735868934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_41
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 397
+        width: 34
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6e30f1f923e4d40a22a39013815f69
+      internalID: 844125958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_42
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 398
+        width: 35
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac38ad4e09ce8049b30ab65932d77f3
+      internalID: -377666627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_43
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 399
+        width: 33
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc19f890c04e08440ad71c45425c6292
+      internalID: 509559075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_44
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 399
+        width: 33
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafdfdf97fe95c74b8af7023a4c6d7c6
+      internalID: -1254575938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_45
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 238
+        width: 70
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba266b652c2a29a4aa6a9acbe38353d1
+      internalID: -1530621831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_46
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 240
+        width: 74
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ff7a510a00ee14fa142c5cd23ee27c
+      internalID: -777701953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_47
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 240
+        width: 71
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24cac2824553214cba84b6e25f22071
+      internalID: 1497104138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_48
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 241
+        width: 108
+        height: 134
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0345bbaa0fd024b8aa90a19f97d32b
+      internalID: -81022815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_49
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 242
+        width: 85
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa73da5849012b4e9f844ca92d99ab9
+      internalID: -1207000904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_50
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 242
+        width: 71
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d225cb09ea3f244b48d6c223e5712a
+      internalID: -838092378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_51
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 244
+        width: 75
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3de3325c7b0134cacb0a45228643e2
+      internalID: 1129943881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_52
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 246
+        width: 50
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa160b2daa1f8a4d8537dffeb305e06
+      internalID: -1932609490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_53
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 246
+        width: 50
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3f438272534184ba2cc67d69228c2f
+      internalID: 1322477375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_54
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 246
+        width: 50
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef78ffdf829894448bf688eeed295d4e
+      internalID: 1902520488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_55
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 246
+        width: 51
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656532630cec6b342bb95303a9b9b5d7
+      internalID: -1292311618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_56
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 246
+        width: 54
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8b272037e63214f9a7f2b54d4fa7b2
+      internalID: 1909065359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_57
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 246
+        width: 52
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0308e31639b7d047b83b801bf453970
+      internalID: 1360370863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_58
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 246
+        width: 50
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554c2b83571732045a99fbd43c29fc08
+      internalID: -399223682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_59
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 114
+        width: 95
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2842637b014c3504db4fbda929936f96
+      internalID: -724815199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_60
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 113
+        width: 91
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d89d5e9935ee1141bf2e9ec3450af9f
+      internalID: 1770410049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_61
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 112
+        width: 85
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375ac1a0d4c6bdd4f9242dd3f856b392
+      internalID: -1170299034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_62
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 112
+        width: 79
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff8102a05d65264e9f6f1150844d44d
+      internalID: -2086610830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_63
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 112
+        width: 77
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285c5df0eedb7c24082a21c6a61523e5
+      internalID: -1590995330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_64
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 113
+        width: 93
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bb17e5fca6a884a8d8f3a8d784711e
+      internalID: 2144100237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_65
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 113
+        width: 95
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4205dbc3a9ba84d978af112f234116
+      internalID: 1806281929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_66
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 111
+        width: 97
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fcf5d2033314b4dae98e8daa42a584
+      internalID: -1699651322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_67
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 41
+        width: 108
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41298ab440a5dba4fa3a625dab7644e9
+      internalID: -315689767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_68
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 42
+        width: 108
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b2cbaf7447c3443a87112eb5c5346c
+      internalID: 637157619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_69
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 42
+        width: 108
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d1df1ca41250f488ed6d396e473caf
+      internalID: -1730859891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_70
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 42
+        width: 108
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea319d0417696844c961f6e7a383486d
+      internalID: -1830131327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_71
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 43
+        width: 108
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac33f61e163f3634a951ce16ca3da1cd
+      internalID: 689163541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LK-sixtyfour-deviantart-mukuro_72
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 43
+        width: 108
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfe23caa05226c49b37c97a21debb9b
+      internalID: -861788642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9360629ffe943ba49a4d0ddc3054050a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      LK-sixtyfour-deviantart-mukuro_0: -2051726607
+      LK-sixtyfour-deviantart-mukuro_1: -469659732
+      LK-sixtyfour-deviantart-mukuro_10: -1496940004
+      LK-sixtyfour-deviantart-mukuro_11: -1637754841
+      LK-sixtyfour-deviantart-mukuro_12: -1162964184
+      LK-sixtyfour-deviantart-mukuro_13: 1404963815
+      LK-sixtyfour-deviantart-mukuro_14: -1348794230
+      LK-sixtyfour-deviantart-mukuro_15: -2055094796
+      LK-sixtyfour-deviantart-mukuro_16: 2026983644
+      LK-sixtyfour-deviantart-mukuro_17: 1226866716
+      LK-sixtyfour-deviantart-mukuro_18: -1057060244
+      LK-sixtyfour-deviantart-mukuro_19: 596358989
+      LK-sixtyfour-deviantart-mukuro_2: 1878034292
+      LK-sixtyfour-deviantart-mukuro_20: -103471318
+      LK-sixtyfour-deviantart-mukuro_21: 896308565
+      LK-sixtyfour-deviantart-mukuro_22: -1773981764
+      LK-sixtyfour-deviantart-mukuro_23: 616457830
+      LK-sixtyfour-deviantart-mukuro_24: 1123824931
+      LK-sixtyfour-deviantart-mukuro_25: -1629487665
+      LK-sixtyfour-deviantart-mukuro_26: -2019323248
+      LK-sixtyfour-deviantart-mukuro_27: 1109171552
+      LK-sixtyfour-deviantart-mukuro_28: 1549530182
+      LK-sixtyfour-deviantart-mukuro_29: -10695534
+      LK-sixtyfour-deviantart-mukuro_3: -2051988203
+      LK-sixtyfour-deviantart-mukuro_30: -1138486481
+      LK-sixtyfour-deviantart-mukuro_31: -1137916008
+      LK-sixtyfour-deviantart-mukuro_32: -1924862708
+      LK-sixtyfour-deviantart-mukuro_33: 1797558487
+      LK-sixtyfour-deviantart-mukuro_34: -130043553
+      LK-sixtyfour-deviantart-mukuro_35: -1056337362
+      LK-sixtyfour-deviantart-mukuro_36: -1853778732
+      LK-sixtyfour-deviantart-mukuro_37: -1330384722
+      LK-sixtyfour-deviantart-mukuro_38: -1860017400
+      LK-sixtyfour-deviantart-mukuro_39: -671443676
+      LK-sixtyfour-deviantart-mukuro_4: 281025826
+      LK-sixtyfour-deviantart-mukuro_40: -735868934
+      LK-sixtyfour-deviantart-mukuro_41: 844125958
+      LK-sixtyfour-deviantart-mukuro_42: -377666627
+      LK-sixtyfour-deviantart-mukuro_43: 509559075
+      LK-sixtyfour-deviantart-mukuro_44: -1254575938
+      LK-sixtyfour-deviantart-mukuro_45: -1530621831
+      LK-sixtyfour-deviantart-mukuro_46: -777701953
+      LK-sixtyfour-deviantart-mukuro_47: 1497104138
+      LK-sixtyfour-deviantart-mukuro_48: -81022815
+      LK-sixtyfour-deviantart-mukuro_49: -1207000904
+      LK-sixtyfour-deviantart-mukuro_5: 1732122622
+      LK-sixtyfour-deviantart-mukuro_50: -838092378
+      LK-sixtyfour-deviantart-mukuro_51: 1129943881
+      LK-sixtyfour-deviantart-mukuro_52: -1932609490
+      LK-sixtyfour-deviantart-mukuro_53: 1322477375
+      LK-sixtyfour-deviantart-mukuro_54: 1902520488
+      LK-sixtyfour-deviantart-mukuro_55: -1292311618
+      LK-sixtyfour-deviantart-mukuro_56: 1909065359
+      LK-sixtyfour-deviantart-mukuro_57: 1360370863
+      LK-sixtyfour-deviantart-mukuro_58: -399223682
+      LK-sixtyfour-deviantart-mukuro_59: -724815199
+      LK-sixtyfour-deviantart-mukuro_6: 665436117
+      LK-sixtyfour-deviantart-mukuro_60: 1770410049
+      LK-sixtyfour-deviantart-mukuro_61: -1170299034
+      LK-sixtyfour-deviantart-mukuro_62: -2086610830
+      LK-sixtyfour-deviantart-mukuro_63: -1590995330
+      LK-sixtyfour-deviantart-mukuro_64: 2144100237
+      LK-sixtyfour-deviantart-mukuro_65: 1806281929
+      LK-sixtyfour-deviantart-mukuro_66: -1699651322
+      LK-sixtyfour-deviantart-mukuro_67: -315689767
+      LK-sixtyfour-deviantart-mukuro_68: 637157619
+      LK-sixtyfour-deviantart-mukuro_69: -1730859891
+      LK-sixtyfour-deviantart-mukuro_7: -410903308
+      LK-sixtyfour-deviantart-mukuro_70: -1830131327
+      LK-sixtyfour-deviantart-mukuro_71: 689163541
+      LK-sixtyfour-deviantart-mukuro_72: -861788642
+      LK-sixtyfour-deviantart-mukuro_8: -387134932
+      LK-sixtyfour-deviantart-mukuro_9: -1104053121
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

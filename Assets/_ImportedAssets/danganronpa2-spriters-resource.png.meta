@@ -1,0 +1,6756 @@
+fileFormatVersion: 2
+guid: 638be5619b373644b9476eabb77b58c4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1499
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b939bc9f25dbb41a9099fd089f23fb
+      internalID: -2109178274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1499
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bcb11a95e30af4da554a78b6588767
+      internalID: -1153662442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1499
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292234fa3d80ab34e8c134146c9e0bdf
+      internalID: -1369267671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_3
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1499
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc5c1f6933a50c4eb801b1d73575c0e
+      internalID: 173042193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_4
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1499
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f769ae54a195a439c2b97495216f0e
+      internalID: 390051975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_5
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1499
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838cc7a34c96da24c90a67dbc89deb7d
+      internalID: 2060889020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_6
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1499
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c552c1ce30eb27479fe242f5f06160c
+      internalID: 1464402894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_7
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1499
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c807d225f5865e43949d8167a86ecfc
+      internalID: -1145375384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_8
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1499
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4ac0beddd1c3044ae021a32f1832bf
+      internalID: 345585283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_9
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1499
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44de4ef931a517c42999428ff955b87a
+      internalID: -1424052214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_10
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1499
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec31c24e9a6927c4a89ad4e364334a56
+      internalID: -526145213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_11
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1499
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e03c1a6a545b644a8d1cd51c62665b
+      internalID: 986199588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_12
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1499
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467051fcbd2f73c4ebb3a5b8298cea6d
+      internalID: 721441675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_13
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1499
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb244e012c97ff4d8c5edabffcfa5fb
+      internalID: -847506989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_14
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 1499
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063ca14e52a01f54db266cf65e7c9286
+      internalID: 1499709161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_15
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1499
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a9842cdb3428a4ab017fd740c766f3
+      internalID: 945414385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1411
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef7d22da988a464b8c67a97bb346c1f
+      internalID: 1430610978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_17
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1411
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a8fa2bd16fd544183e7d29120cbba2
+      internalID: 456417015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_18
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1411
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2976e9ffde31f7449e12bfb5700d693
+      internalID: -738052990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_19
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1411
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69faa3073ce540843abe95a4db28177e
+      internalID: 562672239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_20
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1411
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763d3c8f189a7ce4f9974c3f7666eb36
+      internalID: 1655094382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_21
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1411
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5053481257a674bbc63077eca385df
+      internalID: 345606371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_22
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1411
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d309da623688444cba234fac8fc0659
+      internalID: -887120417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_23
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1411
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b6e0bee341dc04380adc3375529f6f
+      internalID: 92100420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_24
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1411
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d73380f0b15b784caa531a40ce6cb2a
+      internalID: -1289112472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_25
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1411
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f91f07361e376d469f532ef822b5dfd
+      internalID: -1019722459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_26
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1411
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2773aefb75e170446bca56c076674e04
+      internalID: -260051100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_27
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1411
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cbec6314ccb5c41a5f6ce8e2632fe0
+      internalID: -568856209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_28
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1411
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5443c60b1b6ddd442b733c13fa77eb5d
+      internalID: -355739659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_29
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1411
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760149f644e487346bc9fab345b287d6
+      internalID: -1785516331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_30
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 1411
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f28f759fe9cd146bfdcb3432280970
+      internalID: -2047838578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_31
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1411
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf84648532c0114c988960ff879c2ea
+      internalID: 1461193465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_32
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1323
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5f9862ab782e44abff9893a5eb82b7
+      internalID: 1172959036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_33
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1323
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab20e9a462498a1408815ed5b62a686e
+      internalID: 1630260639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_34
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1323
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37aad1ef996fbeb40bbae91c5f1fca97
+      internalID: 774515963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_35
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1323
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a26279fa0dae684682624970308672d
+      internalID: 1525867497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_36
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1323
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d23e1417954814da48c1aac177d9c1
+      internalID: -288376793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_37
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1323
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb6aa011e8b03045ae4b369010c4a7d
+      internalID: 1883481672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_38
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1323
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4393d6e894169a4d8d62b317f3386e8
+      internalID: -1157949724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_39
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1323
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb7b13378867bb488560c963d152241
+      internalID: -1394494604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_40
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1323
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0655c6d8ffb2aa94f97471f4fddf8f89
+      internalID: -825508925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_41
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1323
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b55decbe9904904eaaedeebf853a631
+      internalID: 1904270802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_42
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1323
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d75fbda11b39b44ea5eba337a021686
+      internalID: -1701978549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_43
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1323
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ac5efb07112164a9e0ed9a34887803
+      internalID: 1709798109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_44
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1323
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ce18a56f4a0a940a20a4e74407b27e
+      internalID: -449399797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_45
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1323
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c618e0ffa913f946ad7ea167e23450a
+      internalID: 6372561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_46
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 1323
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c10afe4743be040baa0b85ed455015
+      internalID: -1706093030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_47
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1323
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bafa330af7f4dd42b403d92dfc039a7
+      internalID: 601936766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_48
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1235
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dbca186aaa4044e86ef9a6db22b643
+      internalID: -1836547169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_49
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1235
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e74506e633293942a54253e38829c6f
+      internalID: -905652913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_50
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1235
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6764a81ad48da6f49ba865d504fee17e
+      internalID: 592394518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_51
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1235
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a0baa337d956444a0f2cc77420fb99
+      internalID: 257357865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_52
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1235
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711ffd4e745463a4b87fd8963120b8b7
+      internalID: -1282760808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_53
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1235
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990ea0d2029dcad4dbe5c26dd563e468
+      internalID: 2145494833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_54
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1235
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f7808aef563a44fb82e58f763cbe3b
+      internalID: -1938196227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_55
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1235
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71036da635552ed42a50e15f17b06b46
+      internalID: -1565924477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_56
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1235
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc63e1c2bc908a4481e200ca51d180b
+      internalID: -1624506055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_57
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1235
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cf56994df531041a1816aff473cf14
+      internalID: -445458408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_58
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1235
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36470d3670e1494591877e3bc0308b2
+      internalID: -250784374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_59
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1235
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b628c6a24ddda4f4084037d221dbf207
+      internalID: 177542497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_60
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1235
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715c5f48d2d0a504982243c1c5271d2e
+      internalID: 881069639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_61
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1235
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631619ed57129554aa544c130e30fbc7
+      internalID: -273443519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_62
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 1235
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e53a9e52cfd046418a4d1c6aeb224e2
+      internalID: 319430767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_63
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1235
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cdc8e9264a94c4eb464a63851a6d16
+      internalID: 548887333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_64
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1147
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e23ab02bd76a514abfcba3127d328a4
+      internalID: -191882085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_65
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1147
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990f9c24f5360fc43b9b3bb096b5ebd2
+      internalID: -650445692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_66
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1147
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abca7290c949c8b4382b1d645a960fcd
+      internalID: -1556840524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_67
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1147
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c28e9aa979aae40aefa6d4e89941d9
+      internalID: -821235464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_68
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1147
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb515304bb476d949ab53d2fdc58983d
+      internalID: -2135285283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_69
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1147
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e1b7d21fe1d5b43b696fc314be12f2
+      internalID: -1451795730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_70
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1147
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf6f721130311941b7b64085b76a7b1
+      internalID: -1689784515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_71
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1147
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42320e8d3797ed8439de09d826948073
+      internalID: -1432725462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_72
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1147
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4467c7a646246f34798ba25223cea451
+      internalID: -1285466327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_73
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1147
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e3f1eaa3e4f8442b7506f13803f8e1
+      internalID: -658124182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_74
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1147
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cadbd938e2910b34faed90984cf7388e
+      internalID: 272092229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_75
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1147
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92f548006091f8408f941a6de0084b7
+      internalID: -1469940241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_76
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1147
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c88e7bf73ab2c04b8aba6ff04b7f099
+      internalID: 997036317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_77
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1147
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4622970de82f5fe40b7b5f746c7485f6
+      internalID: -397338052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_78
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 1147
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665def8a351f2254dbf072f0f3d83fc6
+      internalID: -1117401557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_79
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1147
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f11c5efe72bbb54db0bcc4da227fa32
+      internalID: 69802589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_80
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1059
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affb173d2364d2b4197c43300c839587
+      internalID: 1896755101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_81
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1059
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778d85b8c2478b146952dd5a67205acc
+      internalID: -309796225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_82
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1059
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55fc371212dc3c4ebaafd404c7e1f2e
+      internalID: -1976763934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_83
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1059
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8092cdcd21f36c2468202b24ab721771
+      internalID: -1892072546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_84
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1059
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd6e6db93f610f40a02caa0fdf51b1e
+      internalID: -2059080533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_85
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1059
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8e74addd09fa5408419fbaa5a53bac
+      internalID: -2067596182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_86
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1059
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c26ddeac9bb59340a066c50e4f9d849
+      internalID: 1958666993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_87
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1059
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca0f56edece1a04dab1c857de8a142a
+      internalID: -777616229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_88
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1059
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac22191568926c24280269534f8a202b
+      internalID: -39417078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_89
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1059
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3841ee0849ad44fad5351ce53896d6
+      internalID: 1763388136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_90
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1059
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571502efcc244fd4a9b259b5816294b3
+      internalID: -1331284161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_91
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1059
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbce5a21f55f2540b030c5388dad66b
+      internalID: 1027518943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_92
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1059
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7845b16dec9602d4b87a09ae65de35bc
+      internalID: -1188651132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_93
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1059
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da192ee46f992541a2d5ec48d306ddf
+      internalID: 683261363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_94
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 1059
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edc14dc1c95bb84b8ccc30c909523b9
+      internalID: 1787231213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_95
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1059
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043ad77d854393444a8865925ca604e2
+      internalID: 1238520361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_96
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 971
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7694ea557a0a146b2c36ef293a6c3c
+      internalID: -178873995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_97
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 971
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601710f76ce38d74caea15b365c6d029
+      internalID: -1989037790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_98
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 971
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5535b9e37ab7d8e41989f1d486038f2c
+      internalID: -375407797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_99
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 971
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f0ef5f64e36f0459b9a81a92c7f292
+      internalID: -82770269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_100
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 971
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009a52f8602a1784091c6c2bd84008b6
+      internalID: -770380341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_101
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 971
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd911d7cda5131046a66e937a8d2bc5d
+      internalID: -1974157392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_102
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 971
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544d2a6dc1bb6564fb568cbbdefb2e6f
+      internalID: 1372717667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_103
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 971
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef84a3a312a20b4194fda2d228602c1
+      internalID: 69233238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_104
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 971
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd90aa114e2a6640bfc35a5173ea9db
+      internalID: -1715855316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_105
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 971
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7954ac664347d3e4086f8638ce6543bf
+      internalID: 1050493467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_106
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 971
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2850b39c74a78e40aca66e19b6b4b95
+      internalID: 1015550169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_107
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 971
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec2c3f498f8c014db8465a2a7eea9b8
+      internalID: 2131666768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_108
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 971
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e837af08c011bb4dae9cd6842069496
+      internalID: 1528663775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_109
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 971
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b101fd4dc7d372f4a9a48ca0113eef0f
+      internalID: -2090082008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_110
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 971
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ed1d58c9fc3294e8ff065ce8ec4d07
+      internalID: -1915303881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_111
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 971
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa23370420c00414ab64298b6596bfe8
+      internalID: 1506497341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_112
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 883
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a812696f8c7822d43b0129d8f63b4cdd
+      internalID: 1583906258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_113
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 883
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7750f303a8096014e98ce841892b2251
+      internalID: 414421487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_114
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 883
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7a79afbd33cdb418d35381cafba8cf
+      internalID: -750218675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_115
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 883
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbe7ac0acbaf784bb3ae01ee2002927
+      internalID: 2066239847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_116
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 883
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb6491e139ea8c47859c3ed39cf8c16
+      internalID: -380891889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_117
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 883
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b079bbc22efb0f44b9a2c627b02cd57e
+      internalID: 2132895201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_118
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 883
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b2f635b90efca4c90e7beba881ff64
+      internalID: -1322721640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_119
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 883
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04c2c9fd479506449e7805a78f9781e
+      internalID: 150889896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_120
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 883
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729c6b08c5c662440828bdc82e812cd7
+      internalID: -632174371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_121
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 883
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2a28b34a0fcfe4bb02addcc899a91f
+      internalID: -1770301519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_122
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 883
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be6fbbea797ce34a80d7c89e7142fb7
+      internalID: 2001215605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_123
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 883
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926b46188f0c2564c8edb40bae6941b9
+      internalID: -2062898005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_124
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 883
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cdfa88e3be48943a3163366e9bc92c
+      internalID: 2025184593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_125
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 883
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77d172484a49544f8b2d0d09bb21cdc
+      internalID: -1125308151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_126
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 883
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18da0a531b369774a90fae593a80e497
+      internalID: -821161027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_127
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 883
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8670feff8ae89948a9ae95fc2127bd6
+      internalID: -1626225281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_128
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 795
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551a539df8462eb4690590def1f027cd
+      internalID: -427380209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_129
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 795
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a72bf7356cd5847b6a239335c0930a
+      internalID: 1032882674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_130
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 795
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece262f3b0c0c3543828143eb9466980
+      internalID: 1885100809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_131
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 795
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205391744ef36eb41ab0a00b831e121a
+      internalID: -448494557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_132
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 795
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b4777c89611a74f96245fc2428d083
+      internalID: -701249916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_133
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 795
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fb72752cf84914697cbe07a7874a31
+      internalID: -222226434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_134
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 795
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929ceb70dd3fe004fae17756a7db1735
+      internalID: 365097889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_135
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 795
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b54f96a3e91d8f4d9dfb3267410d269
+      internalID: -2082020973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_136
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 795
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bcff52280f83e4f86f1dce480c5616
+      internalID: -1087568038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_137
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 795
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4994ba769f6244a418e472da303e250b
+      internalID: -1635627909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_138
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 795
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddfb00a120e6aa43a8deb561a3fcaaa
+      internalID: -703883619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_139
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 795
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6cdf7f8df62cc47aea69e2f033f214
+      internalID: -1064146492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_140
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 795
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5d792ff4206b6408559c8647467a7a
+      internalID: 2147046527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_141
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 795
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e6dbce4d291f144a6053180a28a4c1
+      internalID: -1508204465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_142
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 795
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ac2a5dbf317ca4b8af4b9baf9768c3
+      internalID: 2084113234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_143
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 795
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73752ecb84b1748409918d03519ec139
+      internalID: -237130146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_144
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 707
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f126884116a0d334188fb5901864f0fc
+      internalID: -153371954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_145
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 707
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9f1039d7a10ce4ea53ae076c935749
+      internalID: 1165930320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_146
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 707
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b94cdfefd339a419c7f5ab634bec90
+      internalID: -937975593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_147
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 707
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045151a64a818e94f9fa29b964947b18
+      internalID: 848433737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_148
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 707
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b39439e1bb7894b96249235e5ab1da
+      internalID: 408301556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_149
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 707
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690e3bd65f5595c4ba4ea6f187c68a8a
+      internalID: 87488268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_150
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 707
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625f7ef9bef139b4098139e50e835853
+      internalID: -1100731267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_151
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 707
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cad7da5bb9c5445ac555f2e8a58549
+      internalID: -64997811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_152
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 707
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1e6426f677682498b10c18407e8ad6
+      internalID: -672087822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_153
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 707
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7858bfab91b2d6b43a621340feeb0384
+      internalID: 1589097930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_154
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 707
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5593d617f22424b4da74ea9415c86f63
+      internalID: 159087646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_155
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 707
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a762f41c38a3a49a026c4c08e7ce44
+      internalID: -1647012192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_156
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 707
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5799d5c3789224fa11646d83c8ee4c
+      internalID: 1515618320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_157
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 707
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229d86ba0f41d5f4692899a93bb79860
+      internalID: 1607834871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_158
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 707
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7bedafc3e45ce4a9638af4a8588fe2
+      internalID: -2091640927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_159
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 707
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723a4b6630c43f040b4ee9dd094ab47a
+      internalID: -14996200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_160
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 619
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0c1ff6160730247aa9f750dac6e1f4
+      internalID: 154814453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_161
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 619
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716c42695e2a4f445ad7e8d5351fa098
+      internalID: -1840800796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_162
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 619
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfd6b142de14c4409f79d8df6b759ce
+      internalID: 429256781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_163
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 619
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbefd9347c14e4a498f352e4a5d9d582
+      internalID: 1295942087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_164
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 619
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f69789afb57d4149a991d10d7281ac2
+      internalID: -1435276588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_165
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 619
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0bf2b4ae210ae48a5656e24168ee99
+      internalID: 1394520375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_166
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 619
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb32a216ade65249a971e30f899019a
+      internalID: -9088448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_167
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 619
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60832d5cec9c3e74481084ddb3a9aea5
+      internalID: -192900337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_168
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 619
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e21bc1c71507346a673fb73e13423f
+      internalID: 1308783876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_169
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 619
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412fbabc24119364f89f81c0fbe487a8
+      internalID: -655715278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_170
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 619
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebde283c7d558748ba4f9b6db24366b
+      internalID: 996646832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_171
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 619
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362a0bb0cb17a534ebaab7ad3de15df1
+      internalID: 1524416670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_172
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 619
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552d0332249a9874a8f6941f3f019a27
+      internalID: -509654742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_173
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 619
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06dbda1a3d314424aba6e68205a8308c
+      internalID: 1306924313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_174
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 619
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa010e69a362994a8ded6676b45f12f
+      internalID: -1840641196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_175
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 619
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d242b523cf1eb8d4fb2cb6ac8ab3fbfa
+      internalID: 1097260958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_176
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 531
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0406bf389455bbc4c930a1f66391a636
+      internalID: 2046538723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_177
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 531
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b70b0259696a64686c81304545768b
+      internalID: -747888665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_178
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 531
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056e9e4455641dc4e8d27addee9ec6c5
+      internalID: 1784411693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_179
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 531
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f90d06b7b471f145a418080b75b8919
+      internalID: 71896309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_180
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 531
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26b046ff1eddea4c9725c724ee1ed29
+      internalID: -2000631173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_181
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 531
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf654667b1d828e459fc681a98c08771
+      internalID: -1888521660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_182
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 531
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177738ed8c921d64289ca4864fb63da9
+      internalID: 1244289699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_183
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 531
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307cbe64a77deff428a8e744b58112dd
+      internalID: -1556207836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_184
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 531
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e854d61e49ac361468893f113f9950dc
+      internalID: 1030279295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_185
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 531
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cce99ef74d87b4297219edee526c88
+      internalID: -1302579178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_186
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 531
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf38ad8af2611434fb361f28cb14f05d
+      internalID: -1049204508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_187
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 531
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d0a0203efe31849a3d7c2abfbc77ea
+      internalID: -805331620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_188
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 531
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e27453279398fc43b31496d0609aca8
+      internalID: -1066573533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_189
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 531
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2572246a680c2234f88b9399d4f265d7
+      internalID: 1892871258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_190
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 531
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2fb285f23a3384da04997866a0cefc
+      internalID: -171450115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_191
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 531
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bc1a38a17667648b29cac8bc301cbb
+      internalID: -2004938574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_192
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 443
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40db5f7c48e1db43aa04ebb3d8ad27c
+      internalID: 298918119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_193
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 443
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad1b7e51fac68a419f74b45ab4fffaa
+      internalID: -1599088861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_194
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 443
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c57eacb7fd951248b47b6f07e6ad654
+      internalID: 1482489352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_195
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 443
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563e825741bede44c85b9eb15169bb4c
+      internalID: -627680884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_196
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 443
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527a1e93569aad342880d52a5bd17317
+      internalID: -2007582581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_197
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 443
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33cf3a0510ca134e933eccd762bbb14
+      internalID: 933016663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_198
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 443
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff563d2e60b1664ebbfa4f568f642bf
+      internalID: 370973342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_199
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 443
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f111f46b83dcd4d8f3615ad9f76db1
+      internalID: -1239152458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_200
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 443
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f85c2acccf348741a456facb0d6393d
+      internalID: -867830486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_201
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 443
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f602a991f4ece0647866ccdf819a5a20
+      internalID: -1021597401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_202
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 443
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454271869a05d344ba5c613212a1a11e
+      internalID: 1146246811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_203
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 443
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d5f24562ba51443ae7dac081cd97ee
+      internalID: 1829272185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_204
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 443
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2456058e73f59684abd0b1d78cc30444
+      internalID: 1597205855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_205
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 443
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adda3ca5b21dc5d4f9a86fcb868ef861
+      internalID: -1626981414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_206
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 443
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63e298ce0748144ba51ba4f6f4e180a
+      internalID: 1365675393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_207
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 443
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab51cddef144d84ab690543becbe592
+      internalID: 130561986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_208
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 355
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2766c7b7bd9d70d4bba0bf4a7a167979
+      internalID: 1279505929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_209
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 355
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1872cbe2fd16644b23c29b574018b9
+      internalID: -347507905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_210
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 355
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2431514bf892d4a95262ffb74a62f5
+      internalID: -95694920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_211
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 355
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7a7a35fbdb6c44596c2a4e61ee2d63
+      internalID: 719891974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_212
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 355
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdd946ff9b9f0c46a943bd9aa64cd6f
+      internalID: 875576853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_213
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 355
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac780f13444c97c459696d23d14cbd8c
+      internalID: 330551938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_214
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 355
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a89ba1f60376c4896db9ece36e2942
+      internalID: 1847623793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_215
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 355
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e5856d37a02bb479665daeb93eb812
+      internalID: -1648620659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_216
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 355
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ddaa8f9f07a844fa23334a9ab22075
+      internalID: -777894959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_217
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 355
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad210381ce393f7448488c26064eb2aa
+      internalID: 141310874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_218
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 355
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348bdcb8325844a408d4957782e01089
+      internalID: -274390580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_219
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 355
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b65bb147be8b44480130c62b107563
+      internalID: -1472320723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_220
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 355
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99dc39f014e32f43981856819b16d2e
+      internalID: -1942023905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_221
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 355
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2ede27ccf34754392ca4c1e7b8e23d
+      internalID: -1332938220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_222
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 355
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985d45c6a21ccea4da19239e6c5fd170
+      internalID: -1985531360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_223
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 355
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e6fa164db3f2945b60d989283cf079
+      internalID: -2134415968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_224
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 267
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5de3bce9e48b7f41b118297fa3f71bd
+      internalID: -884061012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_225
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 267
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5433451cc8d774c4497e1f00221d99f2
+      internalID: 405590459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_226
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 267
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1cdeb7eb6131e34684853d152f4599a
+      internalID: 1278961254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_227
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 267
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce347746c9fe72d429497365378b8fae
+      internalID: -1151781959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_228
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 267
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facae333fb602df4f93cf144999db87e
+      internalID: -1274693874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_229
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 267
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cf6ccc9f915fd489ff9f3cc99431bf
+      internalID: -1307068384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_230
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 267
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf890df89c64de4282c38c7ba0e8fd5
+      internalID: -849848479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_231
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 267
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb397407192450449461014f98cc9ba
+      internalID: 1297897947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_232
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 267
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8720741aae0f449abcc0965c191eda
+      internalID: 1496294689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_233
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 267
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf416cf0a1c9074893f69b5faf1ed43
+      internalID: 1213149008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_234
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 267
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7fa59afa5e44e4889e7bb31766c313
+      internalID: 1440983171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_235
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 267
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db2cb724379e97438c52b5c208393b3
+      internalID: -1452936520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_236
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 267
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a031ddbf09a924dba52afbc4870e7e
+      internalID: -2003050577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_237
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 267
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96898252ab5e984e804c814c7a033a1
+      internalID: 1378655332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_238
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 267
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a419683d639714e4e994921ef0382201
+      internalID: -1842854979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_239
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 267
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063213047ae6d9f47a4a49b3c132244a
+      internalID: 295698832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_240
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 179
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01474f3c543d45e4381c574450231f71
+      internalID: 1558430575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_241
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 179
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7bd7d659382e24aa67ade0878bc816
+      internalID: -770717189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_242
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 179
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563ccd75e23254f4f9d76a4bcae83186
+      internalID: 1452605440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_243
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 179
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0febdd6d44590d44a8f434db6111108
+      internalID: -1202864499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_244
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 179
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e81a36eaa455840b9966eb6012a07f
+      internalID: 1525470416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_245
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 179
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708b5835d28244b41b456b9b2f6e85df
+      internalID: -888154383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_246
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 179
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc9facf656f86848983e1ffbc65cb9c
+      internalID: 1077974883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_247
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 179
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d01e987b14fb045b47647ef260d578
+      internalID: -281249432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_248
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 179
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a92116589957d4c9a8d102168b27a4
+      internalID: -1048665071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_249
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 179
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a5dd7d4d3e1794f90a2ae3406b8496
+      internalID: -2050056480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_250
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 179
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0756c7f7e8af1a247a53581d47e9d187
+      internalID: 1595464569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_251
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 179
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2609c7adb529b049b3b0d3f1295b946
+      internalID: 1183152850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_252
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 179
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca1295d1b07dfd4eb36fe3f85087b51
+      internalID: 1648886911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_253
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 179
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49700d54743665e43a4693c92f08946c
+      internalID: 1610386438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_254
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 179
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2204eb8ef1cdd6b4ead95310eff1e486
+      internalID: 1764414333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_255
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 179
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1528d9827823a78448ab7242b02fe08e
+      internalID: 2134610133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_256
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 91
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26320e9871ce8034a8d99d752d240820
+      internalID: -658220427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_257
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 91
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c5b6ea6b719cf4b990975541243625
+      internalID: -82614447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_258
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 91
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6181fc0cb763e4d9e9d1a5da2a48eb
+      internalID: 705772464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_259
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 91
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8951f7c9683bae944a9623be7786f400
+      internalID: 1223566317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_260
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 91
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93b379d63a6856409c9ba6a1ec76f4d
+      internalID: -44580139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_261
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 91
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5295bd8ff6210947849a96f15508b7d
+      internalID: -1753897436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_262
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 91
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a4e3b159467b3429fd81c2498f6f2f
+      internalID: 761467590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_263
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 91
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1c807a0823c1f47a1423468374ceef
+      internalID: -1494935285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_264
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 91
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ef23380885d5e49a326fc48f17c094
+      internalID: -1973226963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_265
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 91
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6993d5bb8e6db1448d53a0428d6c8b8
+      internalID: -308353889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_266
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 91
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb2ebe51ea55df40864fe3169c86173
+      internalID: 600639453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_267
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 91
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cab4988fd1e514abae3c91646167b9
+      internalID: 1363800708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_268
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 91
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54f43079b3328a46a7d71c2ddb5dbb7
+      internalID: -1595177559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_269
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 91
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81a5c5adc13af14e8c7891b4c1115a6
+      internalID: 448835257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_270
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 91
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9990891dfcc0af44785479f43ed25822
+      internalID: -26358110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_271
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 91
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4cc95f855978df41aec22abb79bcc74
+      internalID: -1461253185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_272
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122b75ff2997f4e48839f07559867afe
+      internalID: -1840378774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_273
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 3
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaef025af70987747ad15414c83c0590
+      internalID: -2038072566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_274
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 3
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b71142075cd974ba086951752890ad
+      internalID: 1336395498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_275
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 3
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b707b563af24ac4782ae948c55409d3
+      internalID: -1063341985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_276
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 3
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fed0d515bb4ad429a703eb7aae227f
+      internalID: 1804896172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_277
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 3
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71b3390a1fca9e4a822353696c9226a
+      internalID: 387968646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_278
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 3
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37afc6463e3612e48b7dd7566c5799c4
+      internalID: -1029560534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_279
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 3
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8791e8625fd3bd74485e306a265d6f0e
+      internalID: -940276405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_280
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 3
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7537c4ad4fbf34ebd5265ec5f51c0a
+      internalID: 1219254721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_281
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 3
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d309da4c22c4c804387b3e41442d9e4b
+      internalID: -1061343736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_282
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 3
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403f89c95c7541246a7319ef667954d6
+      internalID: 1108410041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_283
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 3
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0ac35e092c80f49be04252d949a0ee
+      internalID: -269856960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_284
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 3
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bb0ddb503617344a3080ce394d0575
+      internalID: 59011083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_285
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 3
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa57666694fbb242ae6d3dd48d7a2f0
+      internalID: -623433270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_286
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 3
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c0680a7580eff499d1bc62da937258
+      internalID: 441695516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa2-spriters-resource_287
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 3
+        width: 84
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce09087bb9bb4ba468e3f8515dac1334
+      internalID: 2073059148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 60a65612a90484a4692f04cc9c132897
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":84.0,"y":84.0},"gridSpriteOffset":{"x":3.0,"y":3.0},"gridSpritePadding":{"x":4.0,"y":4.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      danganronpa2-spriters-resource_0: -2109178274
+      danganronpa2-spriters-resource_1: -1153662442
+      danganronpa2-spriters-resource_10: -526145213
+      danganronpa2-spriters-resource_100: -770380341
+      danganronpa2-spriters-resource_101: -1974157392
+      danganronpa2-spriters-resource_102: 1372717667
+      danganronpa2-spriters-resource_103: 69233238
+      danganronpa2-spriters-resource_104: -1715855316
+      danganronpa2-spriters-resource_105: 1050493467
+      danganronpa2-spriters-resource_106: 1015550169
+      danganronpa2-spriters-resource_107: 2131666768
+      danganronpa2-spriters-resource_108: 1528663775
+      danganronpa2-spriters-resource_109: -2090082008
+      danganronpa2-spriters-resource_11: 986199588
+      danganronpa2-spriters-resource_110: -1915303881
+      danganronpa2-spriters-resource_111: 1506497341
+      danganronpa2-spriters-resource_112: 1583906258
+      danganronpa2-spriters-resource_113: 414421487
+      danganronpa2-spriters-resource_114: -750218675
+      danganronpa2-spriters-resource_115: 2066239847
+      danganronpa2-spriters-resource_116: -380891889
+      danganronpa2-spriters-resource_117: 2132895201
+      danganronpa2-spriters-resource_118: -1322721640
+      danganronpa2-spriters-resource_119: 150889896
+      danganronpa2-spriters-resource_12: 721441675
+      danganronpa2-spriters-resource_120: -632174371
+      danganronpa2-spriters-resource_121: -1770301519
+      danganronpa2-spriters-resource_122: 2001215605
+      danganronpa2-spriters-resource_123: -2062898005
+      danganronpa2-spriters-resource_124: 2025184593
+      danganronpa2-spriters-resource_125: -1125308151
+      danganronpa2-spriters-resource_126: -821161027
+      danganronpa2-spriters-resource_127: -1626225281
+      danganronpa2-spriters-resource_128: -427380209
+      danganronpa2-spriters-resource_129: 1032882674
+      danganronpa2-spriters-resource_13: -847506989
+      danganronpa2-spriters-resource_130: 1885100809
+      danganronpa2-spriters-resource_131: -448494557
+      danganronpa2-spriters-resource_132: -701249916
+      danganronpa2-spriters-resource_133: -222226434
+      danganronpa2-spriters-resource_134: 365097889
+      danganronpa2-spriters-resource_135: -2082020973
+      danganronpa2-spriters-resource_136: -1087568038
+      danganronpa2-spriters-resource_137: -1635627909
+      danganronpa2-spriters-resource_138: -703883619
+      danganronpa2-spriters-resource_139: -1064146492
+      danganronpa2-spriters-resource_14: 1499709161
+      danganronpa2-spriters-resource_140: 2147046527
+      danganronpa2-spriters-resource_141: -1508204465
+      danganronpa2-spriters-resource_142: 2084113234
+      danganronpa2-spriters-resource_143: -237130146
+      danganronpa2-spriters-resource_144: -153371954
+      danganronpa2-spriters-resource_145: 1165930320
+      danganronpa2-spriters-resource_146: -937975593
+      danganronpa2-spriters-resource_147: 848433737
+      danganronpa2-spriters-resource_148: 408301556
+      danganronpa2-spriters-resource_149: 87488268
+      danganronpa2-spriters-resource_15: 945414385
+      danganronpa2-spriters-resource_150: -1100731267
+      danganronpa2-spriters-resource_151: -64997811
+      danganronpa2-spriters-resource_152: -672087822
+      danganronpa2-spriters-resource_153: 1589097930
+      danganronpa2-spriters-resource_154: 159087646
+      danganronpa2-spriters-resource_155: -1647012192
+      danganronpa2-spriters-resource_156: 1515618320
+      danganronpa2-spriters-resource_157: 1607834871
+      danganronpa2-spriters-resource_158: -2091640927
+      danganronpa2-spriters-resource_159: -14996200
+      danganronpa2-spriters-resource_16: 1430610978
+      danganronpa2-spriters-resource_160: 154814453
+      danganronpa2-spriters-resource_161: -1840800796
+      danganronpa2-spriters-resource_162: 429256781
+      danganronpa2-spriters-resource_163: 1295942087
+      danganronpa2-spriters-resource_164: -1435276588
+      danganronpa2-spriters-resource_165: 1394520375
+      danganronpa2-spriters-resource_166: -9088448
+      danganronpa2-spriters-resource_167: -192900337
+      danganronpa2-spriters-resource_168: 1308783876
+      danganronpa2-spriters-resource_169: -655715278
+      danganronpa2-spriters-resource_17: 456417015
+      danganronpa2-spriters-resource_170: 996646832
+      danganronpa2-spriters-resource_171: 1524416670
+      danganronpa2-spriters-resource_172: -509654742
+      danganronpa2-spriters-resource_173: 1306924313
+      danganronpa2-spriters-resource_174: -1840641196
+      danganronpa2-spriters-resource_175: 1097260958
+      danganronpa2-spriters-resource_176: 2046538723
+      danganronpa2-spriters-resource_177: -747888665
+      danganronpa2-spriters-resource_178: 1784411693
+      danganronpa2-spriters-resource_179: 71896309
+      danganronpa2-spriters-resource_18: -738052990
+      danganronpa2-spriters-resource_180: -2000631173
+      danganronpa2-spriters-resource_181: -1888521660
+      danganronpa2-spriters-resource_182: 1244289699
+      danganronpa2-spriters-resource_183: -1556207836
+      danganronpa2-spriters-resource_184: 1030279295
+      danganronpa2-spriters-resource_185: -1302579178
+      danganronpa2-spriters-resource_186: -1049204508
+      danganronpa2-spriters-resource_187: -805331620
+      danganronpa2-spriters-resource_188: -1066573533
+      danganronpa2-spriters-resource_189: 1892871258
+      danganronpa2-spriters-resource_19: 562672239
+      danganronpa2-spriters-resource_190: -171450115
+      danganronpa2-spriters-resource_191: -2004938574
+      danganronpa2-spriters-resource_192: 298918119
+      danganronpa2-spriters-resource_193: -1599088861
+      danganronpa2-spriters-resource_194: 1482489352
+      danganronpa2-spriters-resource_195: -627680884
+      danganronpa2-spriters-resource_196: -2007582581
+      danganronpa2-spriters-resource_197: 933016663
+      danganronpa2-spriters-resource_198: 370973342
+      danganronpa2-spriters-resource_199: -1239152458
+      danganronpa2-spriters-resource_2: -1369267671
+      danganronpa2-spriters-resource_20: 1655094382
+      danganronpa2-spriters-resource_200: -867830486
+      danganronpa2-spriters-resource_201: -1021597401
+      danganronpa2-spriters-resource_202: 1146246811
+      danganronpa2-spriters-resource_203: 1829272185
+      danganronpa2-spriters-resource_204: 1597205855
+      danganronpa2-spriters-resource_205: -1626981414
+      danganronpa2-spriters-resource_206: 1365675393
+      danganronpa2-spriters-resource_207: 130561986
+      danganronpa2-spriters-resource_208: 1279505929
+      danganronpa2-spriters-resource_209: -347507905
+      danganronpa2-spriters-resource_21: 345606371
+      danganronpa2-spriters-resource_210: -95694920
+      danganronpa2-spriters-resource_211: 719891974
+      danganronpa2-spriters-resource_212: 875576853
+      danganronpa2-spriters-resource_213: 330551938
+      danganronpa2-spriters-resource_214: 1847623793
+      danganronpa2-spriters-resource_215: -1648620659
+      danganronpa2-spriters-resource_216: -777894959
+      danganronpa2-spriters-resource_217: 141310874
+      danganronpa2-spriters-resource_218: -274390580
+      danganronpa2-spriters-resource_219: -1472320723
+      danganronpa2-spriters-resource_22: -887120417
+      danganronpa2-spriters-resource_220: -1942023905
+      danganronpa2-spriters-resource_221: -1332938220
+      danganronpa2-spriters-resource_222: -1985531360
+      danganronpa2-spriters-resource_223: -2134415968
+      danganronpa2-spriters-resource_224: -884061012
+      danganronpa2-spriters-resource_225: 405590459
+      danganronpa2-spriters-resource_226: 1278961254
+      danganronpa2-spriters-resource_227: -1151781959
+      danganronpa2-spriters-resource_228: -1274693874
+      danganronpa2-spriters-resource_229: -1307068384
+      danganronpa2-spriters-resource_23: 92100420
+      danganronpa2-spriters-resource_230: -849848479
+      danganronpa2-spriters-resource_231: 1297897947
+      danganronpa2-spriters-resource_232: 1496294689
+      danganronpa2-spriters-resource_233: 1213149008
+      danganronpa2-spriters-resource_234: 1440983171
+      danganronpa2-spriters-resource_235: -1452936520
+      danganronpa2-spriters-resource_236: -2003050577
+      danganronpa2-spriters-resource_237: 1378655332
+      danganronpa2-spriters-resource_238: -1842854979
+      danganronpa2-spriters-resource_239: 295698832
+      danganronpa2-spriters-resource_24: -1289112472
+      danganronpa2-spriters-resource_240: 1558430575
+      danganronpa2-spriters-resource_241: -770717189
+      danganronpa2-spriters-resource_242: 1452605440
+      danganronpa2-spriters-resource_243: -1202864499
+      danganronpa2-spriters-resource_244: 1525470416
+      danganronpa2-spriters-resource_245: -888154383
+      danganronpa2-spriters-resource_246: 1077974883
+      danganronpa2-spriters-resource_247: -281249432
+      danganronpa2-spriters-resource_248: -1048665071
+      danganronpa2-spriters-resource_249: -2050056480
+      danganronpa2-spriters-resource_25: -1019722459
+      danganronpa2-spriters-resource_250: 1595464569
+      danganronpa2-spriters-resource_251: 1183152850
+      danganronpa2-spriters-resource_252: 1648886911
+      danganronpa2-spriters-resource_253: 1610386438
+      danganronpa2-spriters-resource_254: 1764414333
+      danganronpa2-spriters-resource_255: 2134610133
+      danganronpa2-spriters-resource_256: -658220427
+      danganronpa2-spriters-resource_257: -82614447
+      danganronpa2-spriters-resource_258: 705772464
+      danganronpa2-spriters-resource_259: 1223566317
+      danganronpa2-spriters-resource_26: -260051100
+      danganronpa2-spriters-resource_260: -44580139
+      danganronpa2-spriters-resource_261: -1753897436
+      danganronpa2-spriters-resource_262: 761467590
+      danganronpa2-spriters-resource_263: -1494935285
+      danganronpa2-spriters-resource_264: -1973226963
+      danganronpa2-spriters-resource_265: -308353889
+      danganronpa2-spriters-resource_266: 600639453
+      danganronpa2-spriters-resource_267: 1363800708
+      danganronpa2-spriters-resource_268: -1595177559
+      danganronpa2-spriters-resource_269: 448835257
+      danganronpa2-spriters-resource_27: -568856209
+      danganronpa2-spriters-resource_270: -26358110
+      danganronpa2-spriters-resource_271: -1461253185
+      danganronpa2-spriters-resource_272: -1840378774
+      danganronpa2-spriters-resource_273: -2038072566
+      danganronpa2-spriters-resource_274: 1336395498
+      danganronpa2-spriters-resource_275: -1063341985
+      danganronpa2-spriters-resource_276: 1804896172
+      danganronpa2-spriters-resource_277: 387968646
+      danganronpa2-spriters-resource_278: -1029560534
+      danganronpa2-spriters-resource_279: -940276405
+      danganronpa2-spriters-resource_28: -355739659
+      danganronpa2-spriters-resource_280: 1219254721
+      danganronpa2-spriters-resource_281: -1061343736
+      danganronpa2-spriters-resource_282: 1108410041
+      danganronpa2-spriters-resource_283: -269856960
+      danganronpa2-spriters-resource_284: 59011083
+      danganronpa2-spriters-resource_285: -623433270
+      danganronpa2-spriters-resource_286: 441695516
+      danganronpa2-spriters-resource_287: 2073059148
+      danganronpa2-spriters-resource_29: -1785516331
+      danganronpa2-spriters-resource_3: 173042193
+      danganronpa2-spriters-resource_30: -2047838578
+      danganronpa2-spriters-resource_31: 1461193465
+      danganronpa2-spriters-resource_32: 1172959036
+      danganronpa2-spriters-resource_33: 1630260639
+      danganronpa2-spriters-resource_34: 774515963
+      danganronpa2-spriters-resource_35: 1525867497
+      danganronpa2-spriters-resource_36: -288376793
+      danganronpa2-spriters-resource_37: 1883481672
+      danganronpa2-spriters-resource_38: -1157949724
+      danganronpa2-spriters-resource_39: -1394494604
+      danganronpa2-spriters-resource_4: 390051975
+      danganronpa2-spriters-resource_40: -825508925
+      danganronpa2-spriters-resource_41: 1904270802
+      danganronpa2-spriters-resource_42: -1701978549
+      danganronpa2-spriters-resource_43: 1709798109
+      danganronpa2-spriters-resource_44: -449399797
+      danganronpa2-spriters-resource_45: 6372561
+      danganronpa2-spriters-resource_46: -1706093030
+      danganronpa2-spriters-resource_47: 601936766
+      danganronpa2-spriters-resource_48: -1836547169
+      danganronpa2-spriters-resource_49: -905652913
+      danganronpa2-spriters-resource_5: 2060889020
+      danganronpa2-spriters-resource_50: 592394518
+      danganronpa2-spriters-resource_51: 257357865
+      danganronpa2-spriters-resource_52: -1282760808
+      danganronpa2-spriters-resource_53: 2145494833
+      danganronpa2-spriters-resource_54: -1938196227
+      danganronpa2-spriters-resource_55: -1565924477
+      danganronpa2-spriters-resource_56: -1624506055
+      danganronpa2-spriters-resource_57: -445458408
+      danganronpa2-spriters-resource_58: -250784374
+      danganronpa2-spriters-resource_59: 177542497
+      danganronpa2-spriters-resource_6: 1464402894
+      danganronpa2-spriters-resource_60: 881069639
+      danganronpa2-spriters-resource_61: -273443519
+      danganronpa2-spriters-resource_62: 319430767
+      danganronpa2-spriters-resource_63: 548887333
+      danganronpa2-spriters-resource_64: -191882085
+      danganronpa2-spriters-resource_65: -650445692
+      danganronpa2-spriters-resource_66: -1556840524
+      danganronpa2-spriters-resource_67: -821235464
+      danganronpa2-spriters-resource_68: -2135285283
+      danganronpa2-spriters-resource_69: -1451795730
+      danganronpa2-spriters-resource_7: -1145375384
+      danganronpa2-spriters-resource_70: -1689784515
+      danganronpa2-spriters-resource_71: -1432725462
+      danganronpa2-spriters-resource_72: -1285466327
+      danganronpa2-spriters-resource_73: -658124182
+      danganronpa2-spriters-resource_74: 272092229
+      danganronpa2-spriters-resource_75: -1469940241
+      danganronpa2-spriters-resource_76: 997036317
+      danganronpa2-spriters-resource_77: -397338052
+      danganronpa2-spriters-resource_78: -1117401557
+      danganronpa2-spriters-resource_79: 69802589
+      danganronpa2-spriters-resource_8: 345585283
+      danganronpa2-spriters-resource_80: 1896755101
+      danganronpa2-spriters-resource_81: -309796225
+      danganronpa2-spriters-resource_82: -1976763934
+      danganronpa2-spriters-resource_83: -1892072546
+      danganronpa2-spriters-resource_84: -2059080533
+      danganronpa2-spriters-resource_85: -2067596182
+      danganronpa2-spriters-resource_86: 1958666993
+      danganronpa2-spriters-resource_87: -777616229
+      danganronpa2-spriters-resource_88: -39417078
+      danganronpa2-spriters-resource_89: 1763388136
+      danganronpa2-spriters-resource_9: -1424052214
+      danganronpa2-spriters-resource_90: -1331284161
+      danganronpa2-spriters-resource_91: 1027518943
+      danganronpa2-spriters-resource_92: -1188651132
+      danganronpa2-spriters-resource_93: 683261363
+      danganronpa2-spriters-resource_94: 1787231213
+      danganronpa2-spriters-resource_95: 1238520361
+      danganronpa2-spriters-resource_96: -178873995
+      danganronpa2-spriters-resource_97: -1989037790
+      danganronpa2-spriters-resource_98: -375407797
+      danganronpa2-spriters-resource_99: -82770269
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
