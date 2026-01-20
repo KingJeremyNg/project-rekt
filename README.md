@@ -27,7 +27,12 @@ A video game concept derived from a group project during my undergraduate years.
 
 ## Story
 
+In response to the emergent student invasion, the university assembles the Faculty Defence Force AKA the F.D.F.  
+Deploy teachers and obstacles to prevent the students from taking over the campus.  
+
 ## Core Loop
+
+![coreloop](./Media/coreloop.jpg)
 
 ## Screens, UI, UX
 
@@ -38,3 +43,7 @@ A video game concept derived from a group project during my undergraduate years.
 ## Level Schema and Sample Level Design
 
 ## Team, Schedule, and Budget
+
+## References
+
+- [A Free Game Design Doc (GDD) Template](https://www.linkedin.com/pulse/free-game-design-doc-gdd-template-david-fox/?trackingId=p8bZP9EonjCr%2FD%2Bp%2FW4FkA%3D%3D)
