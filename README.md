@@ -13,16 +13,16 @@ A video game concept derived from a group project during my undergraduate years.
 
 ## Art Style / Theme
 
-- User Interface Style  
+- User Interface Style - Sidebar and/or action bar to deploy structures and access options or game speed.  
 ![ui](./Media/style1.png)
 
-- Environments  
+- Environments - Common school locations with classroom, library, courtyard and gym as an example.   
 ![environments](./Media/style2.png)
 
-- Characters  
+- Characters - Generally a students/teachers with standout traits. A code monkey would be able to jump over obstacles while a law teacher will wear down students with logical arguments.  
 ![characters](./Media/style3.png)
 
-- Rendering Style  
+- Rendering Style - Cell shaded or stylized 3D environments and objects while characters will be 2D sprites.  
 ![rendering](./Media/style4.png)
 
 ## Story
@@ -32,17 +32,31 @@ Deploy teachers and obstacles to prevent the students from taking over the campu
 
 ## Core Loop
 
-![coreloop](./Media/coreloop.jpg)
+![coreloop](./Media/coreloop.png)
 
 ## Screens, UI, UX
 
+- Defending a wave of students
+![ui](./Media/ui.png)
+
+- Tooltip when selecting students, teachers or structures  
+![ui-tooltip](./Media/ui-tooltip.png)
+
 ## Game Economy
+
+No premium currency, but may look into earned currency to spend on permanent upgrades or unlock new teachers and structures.
 
 ## Asset List
 
+TBD
+
 ## Level Schema and Sample Level Design
 
+TBD
+
 ## Team, Schedule, and Budget
+
+TBD
 
 ## References
 
