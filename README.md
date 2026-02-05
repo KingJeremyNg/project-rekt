@@ -54,9 +54,32 @@ TBD
 
 TBD
 
-## Team, Schedule, and Budget
+## Development Pipeline
 
-TBD
+1. Planning and Ideation - Writing up my ideas into a GDD and setting up Notion tasks for myself
+2. Pre-Production - Designing my game with Unity and using Github for version control. In this stage, I intend to make or gather all the assets that I may use for my game.
+3. Production - Create up to 5 game stages that I have in mind and implement the core game loop along with its narrative elements and post processing.
+4. Testing and QA - Make sure that my game runs smoothly across different devices and collect early feedback on the feel of the game.
+5. Post-Production - If all things go well, aim for a steam release and take advantage of NextFest to showcase my game to a wide audience. Prepare marketing material including game overview and launch trailer. Afterwards, continue to update and support the game according to player feedback.
+
+![development-pipeline](./Media/development-pipeline.png)
+
+## Team and Budget
+
+Jeremy Ng:
+- Producer
+- Game Designer
+- Quality Assurance Lead
+
+Budget - $100 for some assets
+
+## Schedule
+
+1. Planning and Ideation: `2026 JAN 1 to FEB 1`
+2. Pre-Production: `2026 FEB 1 to MAR 1`
+3. Production: `2026 MAR 1 to APR 1`
+4. Testing and QA: `2026 APR 1 to ??`
+5. Post-Production: `2026`
 
 ## References
 
