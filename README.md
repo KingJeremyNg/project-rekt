@@ -8,21 +8,30 @@ A video game concept derived from a group project during my undergraduate years.
 - Features placeable barriers and teacher "turrets" to fight against the student invasion over the school campus.
 - Features Teamfight Tactics inspired grid movement and augments for added gameplay variance.
 - Narrative is delivered through Danganronpa visual novel styled dialogue in-between stages and during stage gameplay when pinnacle scripted events occur.
-- Main platforms are PC and mobile.
-- Business model for this game will be a one time purchase to play forever.
+- Core aesthetics for this game is sensation through sound, effects and the act of slowing/defeating waves of students.
+- Main platforms are PC.
+- Business model for this game will be a one time purchase to play forever with optional cosmetic skins for teachers.
 
 ## Art Style / Theme
 
-- User Interface Style - Sidebar and/or action bar to deploy structures and access options or game speed.  
+- User Interface Style - Through the UI, the information that must be shown are: defence levels, available currency, wave number, turret selection buttons, tooltips when selecting/hovering entities, game speed and game options.  
 ![ui](./Media/style1.png)
 
 - Environments - Common school locations with classroom, library, courtyard and gym as an example.   
 ![environments](./Media/style2.png)
 
-- Characters - Generally a students/teachers with standout traits. A code monkey would be able to jump over obstacles while a law teacher will wear down students with logical arguments.  
+- Characters - Generally students/teachers with standout traits.
+    - Students
+        - Code Monkey - Computer Science student but can jump over obstacles.
+    - Teachers
+        - PE Teacher - Launches basketballs that bounce between targets.  
+        - Law Teacher - Wear down students with logical arguments, dealing high single target damage.  
+        - Biology Teacher - Rapidly grows plants that spits seeds at high speeds and fire rate.  
+- Below is an example of 2D sprites and art theme.  
 ![characters](./Media/style3.png)
 
 - Rendering Style - Cell shaded or stylized 3D environments and objects while characters will be 2D sprites.  
+<!-- __TODO BE MORE SPECIFIC. REFERENCES ARE CONFUSING. THINK ABOUT WHICH ONE IS A BETTER CHOICE FOR MY GAME. THINK ABOUT HIGH FANTASY ELEMENTS IN THE DESIGN__   -->
 ![rendering](./Media/style4.png)
 
 ## Story
@@ -36,7 +45,8 @@ Deploy teachers and obstacles to prevent the students from taking over the campu
 
 ## Screens, UI, UX
 
-- Defending a wave of students
+- Defending a wave of students.  
+<!-- - __TODO MAJOR CONSIDERATION IS CAMERA__   -->
 ![ui](./Media/ui.png)
 
 - Tooltip when selecting students, teachers or structures  
@@ -44,7 +54,7 @@ Deploy teachers and obstacles to prevent the students from taking over the campu
 
 ## Game Economy
 
-No premium currency, but may look into earned currency to spend on permanent upgrades or unlock new teachers and structures.
+Each teacher will have at least 1 optional skin purchaseable for $2.99 delivered through DLC. It is something to add to monetisation but not interfere with core gameplay.
 
 ## Asset List
 
@@ -52,7 +62,10 @@ TBD
 
 ## Level Schema and Sample Level Design
 
-TBD
+5 stages that start at the principal's office AKA the last line of defence. Successfully defend each location and retake the school in the following order:  
+Principal's Office -> Library -> Gym -> Classroom -> Courtyard  
+
+SAMPLE TBD
 
 ## Development Pipeline
 
@@ -70,6 +83,8 @@ Jeremy Ng:
 - Producer
 - Game Designer
 - Quality Assurance Lead
+
+<!-- TODO - CONSIDER FINDING DEDICATED ARTIST -->
 
 Budget - $100 for some assets
 

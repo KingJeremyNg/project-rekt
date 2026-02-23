@@ -1,9 +1,24 @@
 fileFormatVersion: 2
-guid: 73b8af7b890e58e46af36837ea0fb0b0
+guid: ef0ddb1cb1c3f56458134f6c0bdaeea3
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: dd0df7b57d23ead4bb5a2d96e037c8f4, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: planchelowpoly_color
+    second: {fileID: 2800000, guid: 657d5ed036e1ef64f8a9f9968a624170, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: planchelowpoly_normal
+    second: {fileID: 2800000, guid: 7f8c9e9e700b0744e83baa778cb52a5b, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

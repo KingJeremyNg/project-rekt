@@ -1,9 +1,24 @@
 fileFormatVersion: 2
-guid: ef0ddb1cb1c3f56458134f6c0bdaeea3
+guid: 73b8af7b890e58e46af36837ea0fb0b0
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane.002
+    second: {fileID: 2100000, guid: 156ee831553f581469f3271cd04c0846, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Plane.264_color
+    second: {fileID: 2800000, guid: e1b3894e70dff054d8c4abf38d929eca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Plane.264_normal
+    second: {fileID: 2800000, guid: 108b6a69cb6d71643be45064bd1de27e, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
