@@ -4,6 +4,8 @@ A video game concept derived from a group project during my undergraduate years.
 
 ## High Level Vision
 
+**A stylized tower-defense game where teachers defend the school from waves of revolting students.**
+
 - Isometric grid based tower defense game set in a school environment where students are revolting en masse against the institute.
 - Features placeable barriers and teacher "turrets" to fight against the student invasion over the school campus.
 - Features Teamfight Tactics inspired grid movement and augments for added gameplay variance.
@@ -76,6 +78,10 @@ SAMPLE TBD
 5. Post-Production - If all things go well, aim for a steam release and take advantage of NextFest to showcase my game to a wide audience. Prepare marketing material including game overview and launch trailer. Afterwards, continue to update and support the game according to player feedback.
 
 ![development-pipeline](./Media/development-pipeline.png)
+
+## Risks
+
+This game heavily depends on visual appeal and stylized characters. Reach out early to artists to collaborate.
 
 ## Team and Budget
 
