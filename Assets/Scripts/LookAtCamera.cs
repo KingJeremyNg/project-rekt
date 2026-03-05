@@ -9,6 +9,7 @@ public class LookAtCamera : MonoBehaviour
         if (mainCamera != null)
         {
             transform.LookAt(mainCamera);
+            // transform.LookAt(transform.position - (mainCamera.position - transform.position));
         }
     }
 }

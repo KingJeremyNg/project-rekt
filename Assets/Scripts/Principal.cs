@@ -8,6 +8,7 @@ public class Principal : MonoBehaviour
     public bool isAlive = true;
     public Transform target = null;
     public Material material;
+    private float lastTakeDamageTime;
 
     private void Attack()
     {
@@ -18,6 +19,7 @@ public class Principal : MonoBehaviour
     {
         material.color = Color.red;
         hp -= damage;
+        lastTakeDamageTime = Time.time;
         if (hp <= 0)
         {
             Die();
@@ -40,7 +42,7 @@ public class Principal : MonoBehaviour
 
     void Update()
     {
-        if (isAlive && Time.time % 0.5f < Time.deltaTime)
+        if (isAlive && Time.time - lastTakeDamageTime > 0.5f)
         {
             material.color = Color.white; // Reset color to white after being attacked
         }

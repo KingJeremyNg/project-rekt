@@ -8,6 +8,8 @@ public enum GameState
     GameOver
 }
 
+
+
 public class GameManager : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
