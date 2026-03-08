@@ -5,6 +5,7 @@ public class Principal : MonoBehaviour
     public float atk = 1f;
     public float hp = 10f;
     public float atkSpeed = 1f;
+    private float attackRange = 0.5f;
     public bool isAlive = true;
     public Transform target = null;
     public Material material;
@@ -24,7 +25,6 @@ public class Principal : MonoBehaviour
         {
             Die();
         }
-        print("Principal HP: " + hp);
     }
 
     private void Die()

@@ -7,13 +7,16 @@ public class Student : MonoBehaviour
     private float atk = 2f;
     private float hp = 10f;
     private float atkSpeed = 1f;
-    private float attackRange = 0.5f;
+    private float attackRange = 0.7f;
     private float moveSpeed = 1f;
     public Transform target = null;
+    public float distanceToTarget;
     private NavMeshAgent agent;
 
     private Vector3 initialPosition;
     private Animator animator;
+    public AudioSource AudioSource;
+    public AudioClip attackSound;
 
     private void Attack()
     {
@@ -25,6 +28,7 @@ public class Student : MonoBehaviour
 
     public void dealDamage()
     {
+        AudioSource.PlayOneShot(attackSound);
         target.GetComponent<Principal>().TakeDamage(atk);
     }
 
@@ -48,12 +52,15 @@ public class Student : MonoBehaviour
         initialPosition = transform.position;
         animator = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
+        distanceToTarget = Vector3.Distance(target.position, transform.position);
+        AudioSource = GetComponent<AudioSource>();
     }
 
     void Update()
     {
         // Implement update logic here (e.g., movement, attack timing)
-        if (Vector3.Distance(target.position, transform.position) < attackRange) // Example attack range check
+        distanceToTarget = Vector3.Distance(target.position, transform.position);
+        if (distanceToTarget < attackRange) // Example attack range check
         {
             agent.destination = transform.position; // Stop moving
             if (Time.time % (1f / atkSpeed) < Time.deltaTime)
