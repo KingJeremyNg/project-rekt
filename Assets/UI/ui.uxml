@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/ui.uss?fileID=7433441132597879392&amp;guid=69ebbb298faac794fb35967f69bb502c&amp;type=3#ui"/>
+    <ui:VisualElement name="panel" class="panel" style="flex-grow: 1;">
+        <ui:ProgressBar value="50" title="Principal Health" name="principal_hp" data-source-type="Principal, Assembly-CSharp" data-source-path="hp">
+            <Bindings>
+                <ui:DataBinding property="value" data-source-path="hp" data-source-type="Principal, Assembly-CSharp" binding-mode="ToTarget"/>
+            </Bindings>
+        </ui:ProgressBar>
+    </ui:VisualElement>
+    <ui:VisualElement name="buttons" class="buttons">
+        <ui:Button text="PE Teacher Cost:100" name="teacher_pe" class="unity-button"/>
+        <ui:Button text="Law Teacher Cost:200" name="teacher_law" class="unity-button"/>
+        <ui:Button text="Blockade Cost:150" name="blockade" class="unity-button"/>
+    </ui:VisualElement>
+</ui:UXML>

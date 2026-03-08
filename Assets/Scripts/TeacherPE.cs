@@ -4,9 +4,10 @@ public class TeacherPE : Teacher
 {
     private float atk = 2f;
     private float hp = 10f;
-    private float atkSpeed = 1f;
+    private float atkSpeed = 0.5f;
     private float attackRange = 5f;
     private float lastAttackTime = 0f;
+
     private Transform target = null;
     public Transform BasketballPrefab;
 
@@ -18,10 +19,10 @@ public class TeacherPE : Teacher
 
     private void Attack()
     {
-        print("TeacherPE attacks!");
         lastAttackTime = Time.time;
         Transform basketball = Instantiate(BasketballPrefab, transform.position + Vector3.up * target.localScale.y / 3f, Quaternion.identity);
         basketball.GetComponent<Basketball>().target = target;
+        basketball.GetComponent<Basketball>().damage = atk;
     }
 
     private void DealDamage()

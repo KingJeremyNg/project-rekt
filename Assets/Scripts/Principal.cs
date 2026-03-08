@@ -1,15 +1,19 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Principal : MonoBehaviour
 {
-    public float atk = 1f;
+    private float atk = 2f;
     public float hp = 10f;
-    public float atkSpeed = 1f;
-    private float attackRange = 0.5f;
+    private float atkSpeed = 0.5f;
+    private float attackRange = 5f;
+    private float lastAttackTime = 0f;
+
     public bool isAlive = true;
     public Transform target = null;
     public Material material;
     private float lastTakeDamageTime;
+
 
     private void Attack()
     {

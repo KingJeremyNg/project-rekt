@@ -22,4 +22,12 @@ public class AnimationEventHelper : MonoBehaviour
             parentScript.DealDamage();
         }
     }
+
+    public void CleanUp()
+    {
+        if (parentScript != null)
+        {
+            parentScript.CleanUp();
+        }
+    }
 }

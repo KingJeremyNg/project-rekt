@@ -1,0 +1,17 @@
+:root {
+}
+
+.panel {
+}
+
+.buttons {
+    flex-direction: row;
+}
+
+.unity-button {
+}
+
+.unity-progress-bar {
+    width: 25%;
+    height: auto;
+}

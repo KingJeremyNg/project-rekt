@@ -3,15 +3,17 @@ using UnityEngine;
 public enum GameState
 {
     MainMenu,
-    Playing,
+    WavePreparation,
+    WaveInProgress,
+    PlacementMode,
     Paused,
     GameOver
 }
 
-
-
 public class GameManager : MonoBehaviour
 {
+    public int currency = 200;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

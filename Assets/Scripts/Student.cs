@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
+using System.Collections;
 
 public class Student : MonoBehaviour
 {
@@ -12,8 +13,10 @@ public class Student : MonoBehaviour
     public Transform target = null;
     public float distanceToTarget;
     private NavMeshAgent agent;
+    private bool isDead = false;
 
     private Vector3 initialPosition;
+    private SpriteRenderer spriteRenderer;
     private Animator animator;
     public AudioSource AudioSource;
     public AudioClip attackSound;
@@ -35,15 +38,30 @@ public class Student : MonoBehaviour
     public void TakeDamage(float damage)
     {
         hp -= damage;
-        if (hp <= 0)
-        {
-            Die();
-        }
+        StartCoroutine(FlashColor(Color.red, 0.2f));
+        if (hp <= 0) Die();
+    }
+
+    IEnumerator FlashColor(Color flashColor, float duration)
+    {
+        spriteRenderer.color = flashColor; // Change to flash color
+        yield return new WaitForSeconds(duration); // Wait for the specified time
+        spriteRenderer.color = Color.white; // Change back to the original color
     }
 
     private void Die()
     {
-        // Implement death logic here
+        isDead = true;
+        agent.destination = transform.position; // Stop moving
+        animator.SetBool("isIdle", false);
+        animator.SetBool("isMovingRight", false);
+        animator.SetBool("isMovingLeft", false);
+        animator.SetBool("isAttacking", false);
+        animator.SetBool("isDead", true);
+    }
+
+    public void CleanUp()
+    {
         Destroy(gameObject);
     }
 
@@ -51,13 +69,16 @@ public class Student : MonoBehaviour
     {
         initialPosition = transform.position;
         animator = GetComponentInChildren<Animator>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         agent = GetComponent<NavMeshAgent>();
+        agent.speed = moveSpeed;
         distanceToTarget = Vector3.Distance(target.position, transform.position);
         AudioSource = GetComponent<AudioSource>();
     }
 
     void Update()
     {
+        if (isDead) return;
         distanceToTarget = Vector3.Distance(target.position, transform.position);
         if (distanceToTarget < attackRange)
         {
