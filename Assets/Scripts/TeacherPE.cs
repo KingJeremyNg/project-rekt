@@ -8,6 +8,7 @@ public class TeacherPE : Teacher
     private float attackRange = 5f;
     private float lastAttackTime = 0f;
     private Transform target = null;
+    public Transform BasketballPrefab;
 
     new void Start()
     {
@@ -17,7 +18,10 @@ public class TeacherPE : Teacher
 
     private void Attack()
     {
+        print("TeacherPE attacks!");
         lastAttackTime = Time.time;
+        Transform basketball = Instantiate(BasketballPrefab, transform.position + Vector3.up * target.localScale.y / 3f, Quaternion.identity);
+        basketball.GetComponent<Basketball>().target = target;
     }
 
     private void DealDamage()
@@ -36,7 +40,7 @@ public class TeacherPE : Teacher
 
     void Update()
     {
-        if (Time.time - lastAttackTime > 1f / atkSpeed)
+        if ((Time.time - lastAttackTime) > (1f / atkSpeed))
         {
             target = base.FindTarget(attackRange);
             if (target != null)

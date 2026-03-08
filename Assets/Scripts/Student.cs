@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.UIElements; // Make sure to include this namespace
 
 public class Student : MonoBehaviour
 {
@@ -9,6 +8,7 @@ public class Student : MonoBehaviour
     private float atkSpeed = 1f;
     private float attackRange = 0.7f;
     private float moveSpeed = 1f;
+    private float lastAttackTime = 0f;
     public Transform target = null;
     public float distanceToTarget;
     private NavMeshAgent agent;
@@ -26,7 +26,7 @@ public class Student : MonoBehaviour
         animator.SetBool("isAttacking", true);
     }
 
-    public void dealDamage()
+    public void DealDamage()
     {
         AudioSource.PlayOneShot(attackSound);
         target.GetComponent<Principal>().TakeDamage(atk);
@@ -50,7 +50,7 @@ public class Student : MonoBehaviour
     void Start()
     {
         initialPosition = transform.position;
-        animator = GetComponent<Animator>();
+        animator = GetComponentInChildren<Animator>();
         agent = GetComponent<NavMeshAgent>();
         distanceToTarget = Vector3.Distance(target.position, transform.position);
         AudioSource = GetComponent<AudioSource>();
@@ -58,12 +58,11 @@ public class Student : MonoBehaviour
 
     void Update()
     {
-        // Implement update logic here (e.g., movement, attack timing)
         distanceToTarget = Vector3.Distance(target.position, transform.position);
-        if (distanceToTarget < attackRange) // Example attack range check
+        if (distanceToTarget < attackRange)
         {
             agent.destination = transform.position; // Stop moving
-            if (Time.time % (1f / atkSpeed) < Time.deltaTime)
+            if (Time.time - lastAttackTime > 1f / atkSpeed)
             {
                 Attack();
             }
