@@ -92,15 +92,18 @@ Jeremy Ng:
 
 <!-- TODO - CONSIDER FINDING DEDICATED ARTIST -->
 
-Budget - $100 for some assets
+Budget:
+- [Unity Asset Store](https://assetstore.unity.com/) - $15
+- AI Tools:
+    - [AutoSprite](https://www.autosprite.io/) - $41
 
 ## Schedule
 
 1. Planning and Ideation: `2026 JAN 1 to FEB 1`
-2. Pre-Production: `2026 FEB 1 to MAR 1`
-3. Production: `2026 MAR 1 to APR 1`
-4. Testing and QA: `2026 APR 1 to ??`
-5. Post-Production: `2026`
+2. Pre-Production: `2026 FEB 1 to MAR 15`
+3. Production: `2026 MAR 16 to APR 15`
+4. Testing and QA: `2026 APR 16 to MAY 31`
+5. Post-Production: `2026 JUN 1 to 2027 JAN 1`
 
 ## References
 

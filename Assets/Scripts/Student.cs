@@ -7,7 +7,7 @@ public class Student : MonoBehaviour
     private float atk = 2f;
     private float hp = 10f;
     private float atkSpeed = 1f;
-    private float attackRange = 0.7f;
+    private float attackRange = 1.3f;
     private float moveSpeed = 1f;
     private float lastAttackTime = 0f;
     public Transform target = null;

@@ -1,0 +1,695 @@
+fileFormatVersion: 2
+guid: 7b45cb88c2e4f8341be5197fbc42056a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1042
+        width: 204
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1080ab0a5f24ac47ad6404d17867f47
+      internalID: 909789663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_1
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1042
+        width: 203
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa4d6b13da011044808d81a26c93ac7
+      internalID: 1034278101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_2
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1042
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc27631e740e592408a828ddbb5d6dc9
+      internalID: 1920568037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_3
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1042
+        width: 192
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca7c873730be0345919530be5f3de33
+      internalID: -803941091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_4
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 1043
+        width: 180
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7e0bcb0c7e0af4d97322852ee38747
+      internalID: 2007457116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_5
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 787
+        width: 160
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60a5fc5f2a53b34aa1930e5b3f2431a
+      internalID: -1108562043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_6
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 786
+        width: 132
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39edd94efaab2cd41a4882db9ed299f3
+      internalID: 1374397036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_7
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 786
+        width: 132
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23a31a2f09033b47b9d770d677031d9
+      internalID: 1911942998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_8
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 786
+        width: 132
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c648221004e797944b062f2528321e45
+      internalID: -352108326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_9
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 786
+        width: 132
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbab538ba1c7d6498582ba247814fe9
+      internalID: 1795722021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_10
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 530
+        width: 132
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70dcb214b62c09f459816392e088d650
+      internalID: 82421167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_11
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 530
+        width: 132
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d146de4d0d68e142b70b6a3b0b3dee8
+      internalID: -1946946931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_12
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 531
+        width: 132
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e21a102f55e884e8916ffd254fe1f4
+      internalID: -1125020052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_13
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 531
+        width: 136
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec35793e8d1b594dab3ea929f98f418
+      internalID: -2002798629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_14
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 531
+        width: 136
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6dbe1f27114494ca9ea5dffe77230c
+      internalID: -159369527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_15
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 275
+        width: 140
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1558d9118384f43a60e4ab5145f6e7
+      internalID: 558285762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_16
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 275
+        width: 140
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe564543c575444d9a251917ea741d6
+      internalID: 1432345892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_17
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 274
+        width: 132
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22abbcfa3b211bb4d9b689e83731d00e
+      internalID: -1803542469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_18
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 274
+        width: 171
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d067da824d3cc4d9849cb0b72abc0f
+      internalID: -593273211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_19
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 274
+        width: 182
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb63aed32e61f7042b831a1eb3327b64
+      internalID: -1159937041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_21
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 18
+        width: 175
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f2cb559e25324438eee6e8b6356e44
+      internalID: -1335443324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_22
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 18
+        width: 162
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f389159f3330a46aaef73d9f4c7c45
+      internalID: 782244987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_23
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 18
+        width: 155
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62f7d45ec45dec48ad18ccfc310dc63
+      internalID: 607830534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_24
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 18
+        width: 152
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f40ba21cbbe3774bbe77d47da17167c
+      internalID: -1822889684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-throwing_basketball_like_a_dodgeball-v3_25
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 18
+        width: 148
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4653f069599872b448e087ef4b00b53f
+      internalID: -1174048831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 393b5cec4c13703448dcc4cc359a3381
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_0: 909789663
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_1: 1034278101
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_10: 82421167
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_11: -1946946931
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_12: -1125020052
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_13: -2002798629
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_14: -159369527
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_15: 558285762
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_16: 1432345892
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_17: -1803542469
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_18: -593273211
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_19: -1159937041
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_2: 1920568037
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_20: 534363
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_21: -1335443324
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_22: 782244987
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_23: 607830534
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_24: -1822889684
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_25: -1174048831
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_3: -803941091
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_4: 2007457116
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_5: -1108562043
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_6: 1374397036
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_7: 1911942998
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_8: -352108326
+      PE Teacher-throwing_basketball_like_a_dodgeball-v3_9: 1795722021
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -17,6 +17,7 @@ public class TeacherPE : Teacher
         base.DrawCircleRadius(attackRange);
     }
 
+    // Call this method to perform the attack action, which instantiates a basketball projectile that moves towards the target student and deals damage upon impact.
     private void Attack()
     {
         lastAttackTime = Time.time;
@@ -25,11 +26,7 @@ public class TeacherPE : Teacher
         basketball.GetComponent<Basketball>().damage = atk;
     }
 
-    private void DealDamage()
-    {
-        target.GetComponent<Student>().TakeDamage(atk);
-    }
-
+    // Call this method when the teacher takes damage
     public void TakeDamage(float damage)
     {
         hp -= damage;
@@ -41,6 +38,7 @@ public class TeacherPE : Teacher
 
     void Update()
     {
+        // Check if it's time to attack based on the attack speed
         if ((Time.time - lastAttackTime) > (1f / atkSpeed))
         {
             target = base.FindTarget(attackRange);

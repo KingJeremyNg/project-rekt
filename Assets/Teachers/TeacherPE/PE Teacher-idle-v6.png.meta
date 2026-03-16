@@ -1,0 +1,696 @@
+fileFormatVersion: 2
+guid: efb6d84da8763e54e8083291e2901e35
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1034
+        width: 72
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffe907f367d4654aaab6aa9cfe3225f
+      internalID: 844554245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_1
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1034
+        width: 72
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02365c2369000684eab68a7e4b49f640
+      internalID: -334803868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_2
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1034
+        width: 72
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db40c3700b7182419dba91fc56b87a7
+      internalID: 1051102461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_3
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1034
+        width: 72
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83300f113da8d2347ab9d6a451b6a80a
+      internalID: 391230621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_4
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1034
+        width: 72
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f88c1c4d3d78b2459c443b7fe54cb9c
+      internalID: -1992123893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 778
+        width: 72
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e90373cd7a30754b91b3a1411ff3a72
+      internalID: -1058039936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_6
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 778
+        width: 72
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a237abf0879b6f49ba6734b284ead8d
+      internalID: 478548167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_7
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 778
+        width: 72
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bd88f7c979b36448e8bb66fef2b058
+      internalID: 1840438444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_8
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 778
+        width: 72
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2f7accb3c9c434880d7e51df693b15
+      internalID: 590436634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_9
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 778
+        width: 72
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49dfb2aad408ac0498a8858e09eed82e
+      internalID: 345089692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_10
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 522
+        width: 72
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e249f895a05bc4caae3eceb97bcb3f
+      internalID: -239563379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_11
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 522
+        width: 72
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c7bcc2fb8dd114f99dac8eea2ada1d
+      internalID: 188730602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_12
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 522
+        width: 72
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1637818e8054647a36d6491376cfe4
+      internalID: 921082428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_13
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 522
+        width: 72
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d37a7c2df724ae499882d4553be6feb
+      internalID: 805937748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_14
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 522
+        width: 72
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0d63aef1f59b643aaf0239d1568117
+      internalID: -1448292988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_15
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 266
+        width: 72
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28140db5b190f640bec892d32c28eb4
+      internalID: 943064226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_16
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 266
+        width: 72
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2845c8e67348204497bdaa8f9a782e8
+      internalID: -1299624604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_17
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 266
+        width: 72
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da3b09cdcb7e084ca0ceb30723e7fb5
+      internalID: -1244679330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_18
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 266
+        width: 72
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1cf646024e9be44b5a0f00b0abc041
+      internalID: -1149469409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_19
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 266
+        width: 72
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b6cedaa1ce68c43ab109f1be5dba12
+      internalID: -1152670266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_20
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 10
+        width: 72
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ca0c75b1d52464f937a9b5a3b87b1a
+      internalID: 1785992960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_21
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 10
+        width: 72
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e118f2533de4a24582f0d5ad41f4040
+      internalID: -1799661379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_22
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 10
+        width: 72
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ba1dd892990274fa45d408d642f4dc
+      internalID: 213179581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_23
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 10
+        width: 72
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b931b1a375bcc04428fdeeda75181a63
+      internalID: 1696306357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PE Teacher-idle-v6_24
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 10
+        width: 72
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2a6cbfb21483841ba3aea1de756c6e
+      internalID: -747623628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c88e2d6199821ae41802dbfa5dc89be2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: False
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      PE Teacher-idle-v6_0: 844554245
+      PE Teacher-idle-v6_1: -334803868
+      PE Teacher-idle-v6_10: -239563379
+      PE Teacher-idle-v6_11: 188730602
+      PE Teacher-idle-v6_12: 921082428
+      PE Teacher-idle-v6_13: 805937748
+      PE Teacher-idle-v6_14: -1448292988
+      PE Teacher-idle-v6_15: 943064226
+      PE Teacher-idle-v6_16: -1299624604
+      PE Teacher-idle-v6_17: -1244679330
+      PE Teacher-idle-v6_18: -1149469409
+      PE Teacher-idle-v6_19: -1152670266
+      PE Teacher-idle-v6_2: 1051102461
+      PE Teacher-idle-v6_20: 1785992960
+      PE Teacher-idle-v6_21: -1799661379
+      PE Teacher-idle-v6_22: 213179581
+      PE Teacher-idle-v6_23: 1696306357
+      PE Teacher-idle-v6_24: -747623628
+      PE Teacher-idle-v6_3: 391230621
+      PE Teacher-idle-v6_4: -1992123893
+      PE Teacher-idle-v6_5: -1058039936
+      PE Teacher-idle-v6_6: 478548167
+      PE Teacher-idle-v6_7: 1840438444
+      PE Teacher-idle-v6_8: 590436634
+      PE Teacher-idle-v6_9: 345089692
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
