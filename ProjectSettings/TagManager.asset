@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Student
   - Teacher
+  - FloorTile
+  - FloorIndicator
   layers:
   - Default
   - TransparentFX

@@ -2,32 +2,44 @@ using UnityEngine;
 
 public class AnimationEventHelper : MonoBehaviour
 {
-    private Student parentScript;
+    private Student StudentScript;
+    private Teacher TeacherScript;
 
     void Start()
     {
         // Get a reference to the parent script when the game starts
-        parentScript = GetComponentInParent<Student>();
-        if (parentScript == null)
-        {
-            Debug.LogError("ParentScript not found on parent object!");
-        }
+        StudentScript = GetComponentInParent<Student>();
+        TeacherScript = GetComponentInParent<Teacher>();
     }
 
     // This public function will be called by the Animation Event
     public void DealDamage()
     {
-        if (parentScript != null)
-        {
-            parentScript.DealDamage();
-        }
+        if (StudentScript != null) StudentScript.DealDamage();
+        if (TeacherScript != null) TeacherScript.DealDamage();
     }
 
     public void CleanUp()
     {
-        if (parentScript != null)
+        if (StudentScript != null) StudentScript.CleanUp();
+        if (TeacherScript != null) TeacherScript.CleanUp();
+    }
+
+    public void ShootBasketball()
+    {
+        TeacherPE teacherPE = GetComponentInParent<TeacherPE>();
+        if (teacherPE != null)
         {
-            parentScript.CleanUp();
+            teacherPE.ShootBasketball();
+        }
+    }
+
+    public void PlayPunchSound()
+    {
+        TeacherPrincipal teacherPrincipal = GetComponentInParent<TeacherPrincipal>();
+        if (teacherPrincipal != null)
+        {
+            teacherPrincipal.PlayPunchSound();
         }
     }
 }

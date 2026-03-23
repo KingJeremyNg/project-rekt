@@ -4,18 +4,18 @@ using System.Collections;
 
 public class Student : MonoBehaviour
 {
-    private float atk = 2f;
-    private float hp = 10f;
-    private float atkSpeed = 1f;
-    private float attackRange = 1.3f;
-    private float moveSpeed = 1f;
-    private float lastAttackTime = 0f;
+    public float atk = 2f;
+    public float hp = 10f;
+    public float maxHp = 10f;
+    public float atkSpeed = 1f;
+    public float attackRange = 1.3f;
+    public float moveSpeed = 1f;
+    public float lastAttackTime = 0f;
     public Transform target = null;
     public float distanceToTarget;
-    private NavMeshAgent agent;
-    private bool isDead = false;
+    public bool isDead = false;
 
-    private Vector3 initialPosition;
+    private NavMeshAgent agent;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
     public AudioSource AudioSource;
@@ -32,19 +32,19 @@ public class Student : MonoBehaviour
     public void DealDamage()
     {
         AudioSource.PlayOneShot(attackSound);
-        target.GetComponent<Principal>().TakeDamage(atk);
+        target.GetComponent<Teacher>().TakeDamage(atk);
     }
 
     public void TakeDamage(float damage)
     {
         hp -= damage;
-        StartCoroutine(FlashColor(Color.red, 0.2f));
+        StartCoroutine(FlashColor(0.2f));
         if (hp <= 0) Die();
     }
 
-    IEnumerator FlashColor(Color flashColor, float duration)
+    IEnumerator FlashColor(float duration)
     {
-        spriteRenderer.color = flashColor; // Change to flash color
+        spriteRenderer.color = Color.red; // Change to flash color
         yield return new WaitForSeconds(duration); // Wait for the specified time
         spriteRenderer.color = Color.white; // Change back to the original color
     }
@@ -67,7 +67,6 @@ public class Student : MonoBehaviour
 
     void Start()
     {
-        initialPosition = transform.position;
         animator = GetComponentInChildren<Animator>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         agent = GetComponent<NavMeshAgent>();
