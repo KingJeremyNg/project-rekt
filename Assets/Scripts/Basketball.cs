@@ -8,14 +8,7 @@ public class Basketball : MonoBehaviour
     public Transform target = null;
     public float damage = 1f;
     private List<Transform> previousTargets = new List<Transform>();
-
-    public AudioSource AudioSource;
-    public List<AudioClip> bounceSounds;
-
-    void Start()
-    {
-        AudioSource = GetComponent<AudioSource>();
-    }
+    public AudioClip[] bounceSounds;
 
     private Transform FindNewTarget()
     {
@@ -41,8 +34,7 @@ public class Basketball : MonoBehaviour
     {
         bounces--;
         // Play a random bounce sound
-        int index = Random.Range(0, bounceSounds.Count);
-        AudioSource.PlayOneShot(bounceSounds[index]);
+        SoundFXManager.Instance.PlayRandomSound(bounceSounds, transform, 0.4f);
         // Find a new target to bounce towards
         previousTargets.Add(target);
         Transform newTarget = FindNewTarget();

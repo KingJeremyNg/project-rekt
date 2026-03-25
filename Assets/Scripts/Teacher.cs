@@ -5,6 +5,7 @@ public class Teacher : MonoBehaviour
 {
     public float atk = 2f;
     public float hp = 10f;
+    public float maxHp = 10f;
     public float atkSpeed = 0.5f;
     public float attackRange = 5f;
     public float lastAttackTime = 0f;
@@ -15,6 +16,7 @@ public class Teacher : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Animator animator;
     private Transform mainCamera;
+    private HPBar hpBar;
 
     public void Start()
     {
@@ -23,6 +25,7 @@ public class Teacher : MonoBehaviour
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         animator = GetComponentInChildren<Animator>();
         mainCamera = Camera.main.transform;
+        hpBar = GetComponentInChildren<HPBar>();
     }
 
     // Call this method to draw a circle with the specified attackRange of the teacher's attack
@@ -56,6 +59,7 @@ public class Teacher : MonoBehaviour
     {
         hp -= damage;
         StartCoroutine(FlashColor(0.2f));
+        hpBar.UpdateHPBar();
         if (hp <= 0) Die();
     }
 

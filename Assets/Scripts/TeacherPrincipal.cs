@@ -1,17 +1,16 @@
 using UnityEngine;
-using System.Collections.Generic;
 
 public class TeacherPrincipal : MonoBehaviour
 {
     private Teacher teacherScript;
-    public AudioSource AudioSource;
-    public List<AudioClip> punchSounds;
+    public AudioClip[] punchSounds;
 
     void Start()
     {
         teacherScript = GetComponent<Teacher>();
         teacherScript.atk = 10f;
         teacherScript.hp = 100f;
+        teacherScript.maxHp = 100f;
         teacherScript.atkSpeed = 0.5f;
         teacherScript.attackRange = 1.5f;
     }
@@ -25,8 +24,7 @@ public class TeacherPrincipal : MonoBehaviour
 
     public void PlayPunchSound()
     {
-        int index = Random.Range(0, punchSounds.Count);
-        AudioSource.PlayOneShot(punchSounds[index]);
+        SoundFXManager.Instance.PlayRandomSound(punchSounds, transform, 0.1f); // TODO CHANGE VOLUME TO MATCH SLIDERS
     }
 
     void Update()

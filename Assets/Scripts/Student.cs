@@ -18,8 +18,20 @@ public class Student : MonoBehaviour
     private NavMeshAgent agent;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
-    public AudioSource AudioSource;
     public AudioClip attackSound;
+    private Transform mainCamera;
+    private HPBar hpBar;
+
+    void Start()
+    {
+        animator = GetComponentInChildren<Animator>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        agent = GetComponent<NavMeshAgent>();
+        agent.speed = moveSpeed;
+        distanceToTarget = Vector3.Distance(target.position, transform.position);
+        mainCamera = Camera.main.transform;
+        hpBar = GetComponentInChildren<HPBar>();
+    }
 
     private void Attack()
     {
@@ -31,7 +43,7 @@ public class Student : MonoBehaviour
 
     public void DealDamage()
     {
-        AudioSource.PlayOneShot(attackSound);
+        SoundFXManager.Instance.PlaySound(attackSound, transform, 0.2f); // TODO CHANGE VOLUME TO MATCH SLIDERS
         target.GetComponent<Teacher>().TakeDamage(atk);
     }
 
@@ -39,6 +51,7 @@ public class Student : MonoBehaviour
     {
         hp -= damage;
         StartCoroutine(FlashColor(0.2f));
+        hpBar.UpdateHPBar();
         if (hp <= 0) Die();
     }
 
@@ -65,19 +78,19 @@ public class Student : MonoBehaviour
         Destroy(gameObject);
     }
 
-    void Start()
+    public void FaceDirectionByCamera()
     {
-        animator = GetComponentInChildren<Animator>();
-        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-        agent = GetComponent<NavMeshAgent>();
-        agent.speed = moveSpeed;
-        distanceToTarget = Vector3.Distance(target.position, transform.position);
-        AudioSource = GetComponent<AudioSource>();
+        if (target == null) return;
+        Vector3 directionToTarget = target.position - transform.position;
+        Vector3 cameraRight = mainCamera.right;
+        float dotProduct = Vector3.Dot(directionToTarget, cameraRight);
+        spriteRenderer.flipX = dotProduct > 0;
     }
 
     void Update()
     {
         if (isDead) return;
+        if (target != null) FaceDirectionByCamera();
         distanceToTarget = Vector3.Distance(target.position, transform.position);
         if (distanceToTarget < attackRange)
         {

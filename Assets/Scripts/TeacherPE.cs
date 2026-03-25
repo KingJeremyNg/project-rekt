@@ -11,6 +11,7 @@ public class TeacherPE : MonoBehaviour
         teacherScript = GetComponent<Teacher>();
         teacherScript.atk = 2f;
         teacherScript.hp = 10f;
+        teacherScript.maxHp = 10f;
         teacherScript.atkSpeed = 0.5f;
         teacherScript.attackRange = 5f;
         transform.position += Vector3.up * yOffset;
