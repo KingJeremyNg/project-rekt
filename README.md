@@ -108,3 +108,16 @@ Budget:
 ## References
 
 - [A Free Game Design Doc (GDD) Template](https://www.linkedin.com/pulse/free-game-design-doc-gdd-template-david-fox/?trackingId=p8bZP9EonjCr%2FD%2Bp%2FW4FkA%3D%3D)
+
+## Credits
+- Unity Asset Store
+    - INab Studio
+- Itch.io
+    - styloo
+    - Dillon Becker
+- DeviantArt
+    - LK-sixtyfour
+- ArtStation
+    - Caryl Chua
+- AutoSprite.io
+- MixKit.co
