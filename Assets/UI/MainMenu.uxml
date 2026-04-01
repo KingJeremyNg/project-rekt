@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ui:UXML
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:ui="UnityEngine.UIElements"
-    xmlns:uie="UnityEditor.UIElements"
-    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
->
-    
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MainMenu.uss?fileID=7433441132597879392&amp;guid=6972a003638809048a60829bb5530c63&amp;type=3#MainMenu"/>
+    <ui:VisualElement name="Screen" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.82); flex-direction: column; justify-content: center; align-items: center; flex-shrink: 1; align-self: stretch;">
+        <ui:VisualElement name="Container" style="flex-grow: 1; flex-direction: column; flex-wrap: nowrap; justify-content: center; align-self: center; align-content: center; align-items: center; position: absolute; width: 25%; height: 649px; flex-shrink: 1; background-color: rgba(255, 255, 255, 0.38); border-top-left-radius: 16px; border-top-right-radius: 16px; border-bottom-right-radius: 16px; border-bottom-left-radius: 16px;">
+            <ui:VisualElement name="logo" style="width: 100%; height: 400px; background-image: url(&quot;project://database/Assets/UI/logo2-nobg.png?fileID=2800000&amp;guid=085dfd6fc0252b443b525fd6d2dc98ac&amp;type=3#logo2-nobg&quot;); -unity-background-scale-mode: scale-to-fit; position: relative; flex-grow: 0;"/>
+            <ui:Button text="Play" name="play"/>
+            <ui:Button text="Quit" name="quit"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
 </ui:UXML>

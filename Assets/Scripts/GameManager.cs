@@ -13,32 +13,28 @@ public enum GameState
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager Instance { get; private set; }
     public int currency = 200;
     public int currentWave = 0;
     public GameState currentState = GameState.MainMenu;
     public List<Transform> floorTiles = new List<Transform>();
     public float LengthOfTile = 1.5f;
     public Transform Principal;
+    // public NodeGrid NodeGrid;
+    // public PathFinding PathFinding;
+    // public List<Node> path;
+    // public List<Transform> spawnPoints = new List<Transform>();
 
     void Start()
     {
-        // Find all floor tiles in the scene and add them to the list
-        GameObject[] floorTileObjects = GameObject.FindGameObjectsWithTag("FloorTile");
-        foreach (GameObject tile in floorTileObjects)
-        {
-            floorTiles.Add(tile.transform);
-        }
-        // LengthOfTile = floorTiles[0].GetComponent<Renderer>().bounds.size.x;
+        Instance = this;
         Principal = Object.FindFirstObjectByType<TeacherPrincipal>().transform;
+        // CreateGridAndPath();
     }
 
-    public void CalculatePathForAllStudents()
+    public void CreateGridAndPath()
     {
-
-    }
-
-    void Update()
-    {
-
+        // NodeGrid.CreateGrid();
+        // path = PathFinding.FindPath(Principal.position, spawnPoints[0].position);
     }
 }

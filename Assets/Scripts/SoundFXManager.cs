@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SoundFXManager : MonoBehaviour
 {
-    public static SoundFXManager Instance;
+    public static SoundFXManager Instance { get; private set; }
     public AudioSource soundFXObject;
 
     public void PlaySound(AudioClip audioClip, Transform spawnTransform, float volume)

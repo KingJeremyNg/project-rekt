@@ -6,24 +6,22 @@ public class Spawner : MonoBehaviour
     public GameObject[] studentPrefabs;
     public float spawnInterval = 2f;
     private float lastSpawnTime = 0f;
-    private Transform teacherPrincipalTransform;
-
-    void Start()
-    {
-        teacherPrincipalTransform = FindFirstObjectByType<TeacherPrincipal>().transform;
-    }
+    private float tileOffset = 0.5f;
 
     public void SpawnStudent()
     {
         if (spawnPoints.Length == 0 || studentPrefabs.Length == 0) return;
-        if (teacherPrincipalTransform == null) return;
+        if (TeacherPrincipal.Instance == null) return;
         int spawnIndex = Random.Range(0, spawnPoints.Length);
         int studentIndex = Random.Range(0, studentPrefabs.Length);
         int randomCount = Random.Range(1, 3);
         for (int i = 0; i < randomCount; i++)
         {
-            GameObject student = Instantiate(studentPrefabs[studentIndex], spawnPoints[spawnIndex].position, spawnPoints[spawnIndex].rotation);
-            student.GetComponent<Student>().target = teacherPrincipalTransform;
+            Vector3 spawnPosition = spawnPoints[spawnIndex].position;
+            spawnPosition.x += Random.Range(-tileOffset, tileOffset);
+            spawnPosition.z += Random.Range(-tileOffset, tileOffset);
+            GameObject student = Instantiate(studentPrefabs[studentIndex], spawnPosition, spawnPoints[spawnIndex].rotation);
+            student.GetComponent<Student>().target = TeacherPrincipal.Instance.transform;
         }
     }
 

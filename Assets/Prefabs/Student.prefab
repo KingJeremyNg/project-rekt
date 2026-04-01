@@ -411,7 +411,7 @@ NavMeshAgent:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6252872121813510933}
-  m_Enabled: 1
+  m_Enabled: 0
   m_AgentTypeID: 0
   m_Radius: 0.25
   m_Speed: 1
@@ -444,9 +444,8 @@ MonoBehaviour:
   atkSpeed: 1
   attackRange: 1.3
   moveSpeed: 1
-  lastAttackTime: 0
+  currencyReward: 10
   target: {fileID: 0}
-  distanceToTarget: 0
   isDead: 0
   attackSound: {fileID: 8300000, guid: 5945f6db825c6f94fb00a7c23d19f4df, type: 3}
 --- !u!65 &-7741130115361078396

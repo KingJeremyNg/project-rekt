@@ -2,8 +2,7 @@
 }
 
 .Teacher {
-    width: 15%;
-    max-width: 10%;
+    width: 200px;
     border-top-width: 0;
     border-right-width: 0;
     border-bottom-width: 0;
@@ -12,13 +11,85 @@
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
-    background-color: rgb(255, 0, 0);
-    margin-top: 10px;
+    margin-top: 0;
     margin-right: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.TeacherCost {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(132, 138, 157);
+    height: 30px;
+    -unity-text-align: middle-center;
+    font-size: 18px;
+}
+
+.TeacherName {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(132, 138, 157);
+    height: 30px;
+    -unity-text-align: middle-center;
+    font-size: 18px;
+}
+
+.TeacherPortrait {
+    width: 100%;
+    height: auto;
+    -unity-background-scale-mode: scale-and-crop;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: rgb(232, 232, 232);
+    border-left-color: rgb(132, 138, 157);
+    border-right-color: rgb(132, 138, 157);
+    border-top-color: rgb(132, 138, 157);
+    border-bottom-color: rgb(132, 138, 157);
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    -unity-slice-type: sliced;
+}
+
+.Teacher:hover {
+    scale: 1.05 1.05;
+    transition-duration: 0.25s;
+    rotate: 2.5deg;
+    translate: 0 -5px;
+}
+
+.unity-progress-bar__title {
+    -unity-font-style: bold;
+}
+
+
+
+.unity-progress-bar__container {
+    min-height: 100%;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+}
+
+.unity-progress-bar__progress {
+    background-color: rgb(9, 255, 0);
+}
+
+.unity-progress-bar__background {
+    background-color: rgb(255, 255, 255);
 }

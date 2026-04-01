@@ -1,6 +1,7 @@
 using UnityEngine;
-using UnityEngine.AI;
+// using UnityEngine.AI;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Student : MonoBehaviour
 {
@@ -10,12 +11,21 @@ public class Student : MonoBehaviour
     public float atkSpeed = 1f;
     public float attackRange = 1.3f;
     public float moveSpeed = 1f;
-    public float lastAttackTime = 0f;
+    public float idleTime = 1f;
+    public int currencyReward = 10;
     public Transform target = null;
-    public float distanceToTarget;
     public bool isDead = false;
+    public float tileOffset = 0.25f;
 
-    private NavMeshAgent agent;
+    private float lastAttackTime = 0f;
+    private float distanceToTarget;
+    private List<Node> path;
+    private int currentPathIndex = 0;
+    private float lastDestinationReachTime = 0f;
+    private bool isAtDestination = false;
+    private float tileOffsetX;
+    private float tileOffsetZ;
+
     private SpriteRenderer spriteRenderer;
     private Animator animator;
     public AudioClip attackSound;
@@ -26,19 +36,16 @@ public class Student : MonoBehaviour
     {
         animator = GetComponentInChildren<Animator>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-        agent = GetComponent<NavMeshAgent>();
-        agent.speed = moveSpeed;
-        distanceToTarget = Vector3.Distance(target.position, transform.position);
         mainCamera = Camera.main.transform;
         hpBar = GetComponentInChildren<HPBar>();
+        path = PathFinding.Instance.FindPath(transform.position, TeacherPrincipal.Instance.transform.position);
+        RandomTileOffset();
     }
 
-    private void Attack()
+    void RandomTileOffset()
     {
-        animator.SetBool("isIdle", false);
-        animator.SetBool("isMovingRight", false);
-        animator.SetBool("isMovingLeft", false);
-        animator.SetBool("isAttacking", true);
+        tileOffsetX = Random.Range(-tileOffset, tileOffset);
+        tileOffsetZ = Random.Range(-tileOffset, tileOffset);
     }
 
     public void DealDamage()
@@ -65,12 +72,9 @@ public class Student : MonoBehaviour
     private void Die()
     {
         isDead = true;
-        agent.destination = transform.position; // Stop moving
-        animator.SetBool("isIdle", false);
-        animator.SetBool("isMovingRight", false);
-        animator.SetBool("isMovingLeft", false);
-        animator.SetBool("isAttacking", false);
-        animator.SetBool("isDead", true);
+        // agent.destination = transform.position; // Stop moving
+        PlayDeathAnimation();
+        GameManager.Instance.currency += currencyReward;
     }
 
     public void CleanUp()
@@ -87,25 +91,87 @@ public class Student : MonoBehaviour
         spriteRenderer.flipX = dotProduct > 0;
     }
 
+    public void FaceDirectionByMovement()
+    {
+        if (target == null) return;
+        if (path != null && currentPathIndex < path.Count)
+        {
+            Vector3 currentNode = currentPathIndex > 0 ? path[currentPathIndex - 1].worldPosition : transform.position;
+            Vector3 nextNode = path[currentPathIndex].worldPosition;
+            Vector3 movementDirection = nextNode - currentNode;
+            Vector3 cameraRight = mainCamera.right;
+            float dotProduct = Vector3.Dot(movementDirection, cameraRight);
+            spriteRenderer.flipX = dotProduct > 0;
+        }
+    }
+
+    public void PlayMoveAnimation()
+    {
+        animator.SetBool("isIdle", false);
+        animator.SetBool("isMoving", true);
+        animator.SetBool("isAttacking", false);
+    }
+
+    public void PlayAttackAnimation()
+    {
+        animator.SetBool("isIdle", false);
+        animator.SetBool("isMoving", false);
+        animator.SetBool("isAttacking", true);
+    }
+
+    public void PlayIdleAnimation()
+    {
+        animator.SetBool("isIdle", true);
+        animator.SetBool("isMoving", false);
+        animator.SetBool("isAttacking", false);
+    }
+
+    public void PlayDeathAnimation()
+    {
+        animator.SetBool("isIdle", false);
+        animator.SetBool("isMoving", false);
+        animator.SetBool("isAttacking", false);
+        animator.SetBool("isDead", true);
+    }
+
     void Update()
     {
         if (isDead) return;
-        if (target != null) FaceDirectionByCamera();
+        if (animator.GetBool("isAttacking")) FaceDirectionByCamera();
+        if (animator.GetBool("isMoving")) FaceDirectionByMovement();
+        // Check if within attack range
         distanceToTarget = Vector3.Distance(target.position, transform.position);
-        if (distanceToTarget < attackRange)
+        if ((distanceToTarget < attackRange) && (Time.time - lastAttackTime > 1f / atkSpeed))
         {
-            agent.destination = transform.position; // Stop moving
-            if (Time.time - lastAttackTime > 1f / atkSpeed)
-            {
-                Attack();
-            }
+            PlayAttackAnimation();
+            lastAttackTime = Time.time;
         }
+        // Path towards target
         else
         {
-            // Set the agent's destination
-            agent.destination = target.position;
-            animator.SetBool("isMovingLeft", true);
-            animator.SetBool("isAttacking", false);
+            if (path != null && currentPathIndex < path.Count)
+            {
+                Vector3 nextPosition = path[currentPathIndex].worldPosition;
+                nextPosition.x += tileOffsetX;
+                nextPosition.z += tileOffsetZ;
+                if (!isAtDestination)
+                {
+                    transform.position = Vector3.MoveTowards(transform.position, nextPosition, moveSpeed * Time.deltaTime);
+                    PlayMoveAnimation();
+                }
+                if (!isAtDestination && Vector3.Distance(transform.position, nextPosition) < 0.1f)
+                {
+                    isAtDestination = true;
+                    PlayIdleAnimation();
+                    lastDestinationReachTime = Time.time;
+                }
+                if (isAtDestination && (Time.time - lastDestinationReachTime > idleTime))
+                {
+                    isAtDestination = false;
+                    currentPathIndex++;
+                    RandomTileOffset();
+                }
+            }
         }
     }
 }

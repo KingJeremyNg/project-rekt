@@ -2,11 +2,13 @@ using UnityEngine;
 
 public class TeacherPrincipal : MonoBehaviour
 {
+    public static TeacherPrincipal Instance { get; private set; }
     private Teacher teacherScript;
     public AudioClip[] punchSounds;
 
     void Start()
     {
+        Instance = this;
         teacherScript = GetComponent<Teacher>();
         teacherScript.atk = 10f;
         teacherScript.hp = 100f;
