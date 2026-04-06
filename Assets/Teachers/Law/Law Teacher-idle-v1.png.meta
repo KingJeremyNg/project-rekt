@@ -1,0 +1,694 @@
+fileFormatVersion: 2
+guid: e01c6c6951973e9429218bb411676f6a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1039
+        width: 64
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6a70576682e814699ed56cec238ef3
+      internalID: -1264863188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_1
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1039
+        width: 64
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6b4bd870f1d874b86c0bce48bc7a64
+      internalID: 2147172113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_2
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1039
+        width: 64
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3593fb482a5325142b69f6dacb3f784f
+      internalID: 1262802939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_3
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1039
+        width: 63
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daaf36262e2bc6e4b865334c76424995
+      internalID: 1648816435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_4
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1039
+        width: 63
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55361da181d38dd4784f93f27710882b
+      internalID: -981513475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 783
+        width: 63
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9feac8b654b8fa44c83aa70d9e19f0b8
+      internalID: -1113489771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_6
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 783
+        width: 63
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abd89266b4805b468f9d39835fafb24
+      internalID: -173903051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_7
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 783
+        width: 63
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd18883a53953b642a2f938a822ba2d9
+      internalID: 1402844200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_8
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 783
+        width: 63
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2947aff42c7780408f57e0fc6bbc154
+      internalID: -1226720972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_9
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 783
+        width: 63
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518a6638c9df19745937da224a20019d
+      internalID: -1238056152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_10
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 527
+        width: 63
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9265457b3d41d344ba979920e5671f5
+      internalID: -205398548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_11
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 527
+        width: 63
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b8737371e98484795d314bc3817197
+      internalID: -1024970454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_12
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 527
+        width: 63
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c3dd010f258c84cb60ae26f5efe944
+      internalID: -759030504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_13
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 527
+        width: 62
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cd8340b18cb4045b7d6a22a4b30910
+      internalID: 1680235151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_14
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 527
+        width: 63
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30513e122706cda4c8642989c807a07c
+      internalID: -367829195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_15
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 271
+        width: 60
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45dc7bcaa142d6944b193d480bc050b0
+      internalID: -1182794374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_16
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 271
+        width: 60
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163fdfb9f499d5941b51faa911581ef2
+      internalID: 782581534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_17
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 271
+        width: 60
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c248347e79becd74394538322cc6aeb2
+      internalID: -1630958770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_18
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 271
+        width: 60
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ca836f1e0d8c24a80cac30d6623366
+      internalID: 2023988452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_19
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 271
+        width: 60
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b5229df9af96d41a802f30f32cb1fe
+      internalID: 1554008477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_20
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 15
+        width: 63
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31208692fa49b7498602cff187d3e8c
+      internalID: -2143571468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_21
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 15
+        width: 63
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1eea0e9961115247be45f3742fbf9ab
+      internalID: -17955622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_22
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 15
+        width: 63
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a421affc053a446a586216defa1aa1
+      internalID: -1557676068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_23
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 15
+        width: 64
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff76ea35d4c52b4d93cc165273f7b31
+      internalID: -1957007460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Law Teacher-idle-v1_24
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 15
+        width: 64
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ee0c626de14544897ae14a188cc8a6
+      internalID: 1993458351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9b4703788f60c47499034d9f6d362730
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Law Teacher-idle-v1_0: -1264863188
+      Law Teacher-idle-v1_1: 2147172113
+      Law Teacher-idle-v1_10: -205398548
+      Law Teacher-idle-v1_11: -1024970454
+      Law Teacher-idle-v1_12: -759030504
+      Law Teacher-idle-v1_13: 1680235151
+      Law Teacher-idle-v1_14: -367829195
+      Law Teacher-idle-v1_15: -1182794374
+      Law Teacher-idle-v1_16: 782581534
+      Law Teacher-idle-v1_17: -1630958770
+      Law Teacher-idle-v1_18: 2023988452
+      Law Teacher-idle-v1_19: 1554008477
+      Law Teacher-idle-v1_2: 1262802939
+      Law Teacher-idle-v1_20: -2143571468
+      Law Teacher-idle-v1_21: -17955622
+      Law Teacher-idle-v1_22: -1557676068
+      Law Teacher-idle-v1_23: -1957007460
+      Law Teacher-idle-v1_24: 1993458351
+      Law Teacher-idle-v1_3: 1648816435
+      Law Teacher-idle-v1_4: -981513475
+      Law Teacher-idle-v1_5: -1113489771
+      Law Teacher-idle-v1_6: -173903051
+      Law Teacher-idle-v1_7: 1402844200
+      Law Teacher-idle-v1_8: -1226720972
+      Law Teacher-idle-v1_9: -1238056152
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -123,3 +123,11 @@ Budget:
 - MixKit.co
 - Youtube
     - Sebastian Lague
+- PixaBay
+    - moodmode
+    - StudioKolomna
+- SketchFab
+    - FranoW
+    - Shaina (Regan) Alvarez
+    - Anom Purple Modelling
+    - Bala mirnaalini

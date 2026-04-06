@@ -11,6 +11,7 @@ public class Teacher : MonoBehaviour
     public float lastAttackTime = 0f;
     public Transform target = null;
 
+    public float yOffset = 0.75f;
     private int segments = 50;
     private LineRenderer lineRenderer;
     private SpriteRenderer spriteRenderer;
@@ -51,6 +52,7 @@ public class Teacher : MonoBehaviour
 
     public void DealDamage()
     {
+        if (target == null) return;
         target.GetComponent<Student>().TakeDamage(atk);
     }
 

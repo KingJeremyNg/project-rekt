@@ -84,7 +84,6 @@ public class GameUI : MonoBehaviour
                 Floor.GetIndicators(tileToIgnore: FloorTileTransform);
             }
         }
-        GameManager.Instance.CreateGridAndPath();
     }
 
     private void UpdateUI()

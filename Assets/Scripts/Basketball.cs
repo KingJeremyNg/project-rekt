@@ -34,7 +34,7 @@ public class Basketball : MonoBehaviour
     {
         bounces--;
         // Play a random bounce sound
-        SoundFXManager.Instance.PlayRandomSound(bounceSounds, transform, 0.4f);
+        SoundFXManager.Instance.PlayRandomSound(bounceSounds, transform, 1f); // TODO CHANGE VOLUME TO MATCH SLIDERS
         // Find a new target to bounce towards
         previousTargets.Add(target);
         Transform newTarget = FindNewTarget();

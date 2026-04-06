@@ -11,7 +11,7 @@ public class Student : MonoBehaviour
     public float atkSpeed = 1f;
     public float attackRange = 1.3f;
     public float moveSpeed = 1f;
-    public float idleTime = 1f;
+    public float idleTime = 0f;
     public int currencyReward = 10;
     public Transform target = null;
     public bool isDead = false;
@@ -50,7 +50,7 @@ public class Student : MonoBehaviour
 
     public void DealDamage()
     {
-        SoundFXManager.Instance.PlaySound(attackSound, transform, 0.2f); // TODO CHANGE VOLUME TO MATCH SLIDERS
+        SoundFXManager.Instance.PlaySound(attackSound, transform, 1f); // TODO CHANGE VOLUME TO MATCH SLIDERS
         target.GetComponent<Teacher>().TakeDamage(atk);
     }
 

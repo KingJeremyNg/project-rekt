@@ -1,0 +1,706 @@
+fileFormatVersion: 2
+guid: 05dc35de7f46e9d4caf47404b8a17184
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1078
+        width: 204
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1bc649dd77e1a4188580fe68c309d0
+      internalID: -1237823840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1077
+        width: 206
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580da4c5ff6e3f140ae88bfbe8684ead
+      internalID: -1481850944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1076
+        width: 215
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f626bb897f69714ca102a402afa794a
+      internalID: 2063503266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1070
+        width: 222
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c22a4f5d800064da58a6e2dd291a9f
+      internalID: 899641220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 1067
+        width: 219
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47920503a5b33f4abf8cea58351ea1e
+      internalID: 284880599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 811
+        width: 232
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969f11806dffd504286b0a6da830d57b
+      internalID: -1645635349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 804
+        width: 230
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cc7a47eadb2bc44ade951be22bed91
+      internalID: -1267992061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 806
+        width: 213
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9da2abf0e292e438fcbdc36c3e0525
+      internalID: -679979734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 807
+        width: 238
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81a846c958b9994f94e23a4bcf8cab4
+      internalID: -1010176862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 805
+        width: 218
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c934771c5ffec3b4fae1544225505f9c
+      internalID: 1834009136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 547
+        width: 230
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a37750bbba66c448c27ceb9837499f
+      internalID: -1471964063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 546
+        width: 218
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4decc7c4275fea8428e444cb65801376
+      internalID: -14838054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 543
+        width: 220
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20662b1d28daaea47b94e6d1e4e68b5f
+      internalID: 1092055821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 542
+        width: 221
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca039fe638cd4104caf77c4c6d3c087f
+      internalID: 557573061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 539
+        width: 226
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c5fe97482a4024bae0b35d98b480ba
+      internalID: 7225896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 281
+        width: 225
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da44be91a68d4b04cbedfd2235216025
+      internalID: 1067657068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 278
+        width: 233
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184433cb1f4ad60449d59db81d4c20aa
+      internalID: 1929956265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 293
+        width: 233
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea1b86a7efaa0d43b2dbdf2d2ad7696
+      internalID: 1540192958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 291
+        width: 221
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f9c46da4db6934e9e7fd9043c2ecac
+      internalID: 732528644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 274
+        width: 233
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e2452c7fc099b47915301e6ba12db1
+      internalID: -81253431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 17
+        width: 231
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57ba544d3b0acd4e8c17ce93ca71435
+      internalID: 210171070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 15
+        width: 234
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b0b4352cfb89b4885645574e0a0be7
+      internalID: -1957708128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 13
+        width: 230
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82729a661d11f2a44a2d3c0d127e816c
+      internalID: 1888440844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 30
+        width: 232
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a335db1e0b49a14ab15a199a1049202
+      internalID: 1894195868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grey dust effect particles-spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 9
+        width: 235
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df74f459e14049149bf3443e93ecc6f8
+      internalID: 1083938563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dab43aaeff4667945bcff165d0aa2e07
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Grey dust effect particles-spritesheet_0: -1237823840
+      Grey dust effect particles-spritesheet_1: -1481850944
+      Grey dust effect particles-spritesheet_10: -1010176862
+      Grey dust effect particles-spritesheet_11: 540867538
+      Grey dust effect particles-spritesheet_12: 1834009136
+      Grey dust effect particles-spritesheet_13: 1485104267
+      Grey dust effect particles-spritesheet_14: 1039902952
+      Grey dust effect particles-spritesheet_15: -1471964063
+      Grey dust effect particles-spritesheet_16: 285962744
+      Grey dust effect particles-spritesheet_17: -14838054
+      Grey dust effect particles-spritesheet_18: 1092055821
+      Grey dust effect particles-spritesheet_19: 557573061
+      Grey dust effect particles-spritesheet_2: 2063503266
+      Grey dust effect particles-spritesheet_20: 7225896
+      Grey dust effect particles-spritesheet_21: -257570934
+      Grey dust effect particles-spritesheet_22: -583494121
+      Grey dust effect particles-spritesheet_23: 666671158
+      Grey dust effect particles-spritesheet_24: 1067657068
+      Grey dust effect particles-spritesheet_25: 1929956265
+      Grey dust effect particles-spritesheet_26: 1540192958
+      Grey dust effect particles-spritesheet_27: 732528644
+      Grey dust effect particles-spritesheet_28: -81253431
+      Grey dust effect particles-spritesheet_29: 898861346
+      Grey dust effect particles-spritesheet_3: 899641220
+      Grey dust effect particles-spritesheet_30: 210171070
+      Grey dust effect particles-spritesheet_31: -1957708128
+      Grey dust effect particles-spritesheet_32: -921852242
+      Grey dust effect particles-spritesheet_33: 1888440844
+      Grey dust effect particles-spritesheet_34: 1894195868
+      Grey dust effect particles-spritesheet_35: 1083938563
+      Grey dust effect particles-spritesheet_36: 384935241
+      Grey dust effect particles-spritesheet_4: 284880599
+      Grey dust effect particles-spritesheet_5: 666148621
+      Grey dust effect particles-spritesheet_6: -1645635349
+      Grey dust effect particles-spritesheet_7: -1267992061
+      Grey dust effect particles-spritesheet_8: 546197499
+      Grey dust effect particles-spritesheet_9: -679979734
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

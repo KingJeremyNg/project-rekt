@@ -6,6 +6,8 @@ public class CameraControls : MonoBehaviour
     InputAction MoveCameraAction;
     InputAction RotateCameraLeftAction;
     InputAction RotateCameraRightAction;
+    InputAction ZoomInAction;
+    InputAction ZoomOutAction;
     private Camera mainCamera;
     private float rotationTime = 1f;
     private float rotationY = 0f;
@@ -18,6 +20,8 @@ public class CameraControls : MonoBehaviour
         MoveCameraAction = InputSystem.actions.FindAction("Move");
         RotateCameraLeftAction = InputSystem.actions.FindAction("RotateLeft");
         RotateCameraRightAction = InputSystem.actions.FindAction("RotateRight");
+        ZoomInAction = InputSystem.actions.FindAction("ZoomIn");
+        ZoomOutAction = InputSystem.actions.FindAction("ZoomOut");
     }
 
     private void RotateCamera(float degrees)

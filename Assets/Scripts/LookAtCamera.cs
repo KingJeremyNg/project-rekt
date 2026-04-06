@@ -14,7 +14,13 @@ public class LookAtCamera : MonoBehaviour
 
     void Update()
     {
-        transform.LookAt(mainCamera);
-        // transform.LookAt(transform.position - (mainCamera.position - transform.position));
+        // 1. Define the plane (e.g., at the origin, facing Up)
+        Plane plane = new Plane(mainCamera.forward, mainCamera.position);
+
+        // 2. Find the closest point on that plane to this object
+        Vector3 targetPoint = plane.ClosestPointOnPlane(transform.position);
+
+        // 3. Make the object look at that point
+        transform.LookAt(targetPoint);
     }
 }

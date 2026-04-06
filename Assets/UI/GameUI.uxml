@@ -32,8 +32,16 @@
             <ui:Label text="PE Teacher" name="Teacher1Name" class="TeacherName"/>
             <ui:Label text="$200" name="Teacher1Cost" class="TeacherCost"/>
         </ui:VisualElement>
-        <ui:VisualElement name="Teacher2" class="Teacher"/>
-        <ui:VisualElement name="Teacher3" class="Teacher"/>
+        <ui:VisualElement name="Teacher2" class="Teacher">
+            <ui:VisualElement name="Teacher2Portrait" class="TeacherPortrait" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Teachers/TA/TA_portrait.png?fileID=2800000&amp;guid=e32659f8977f3334e9463fb74c2c05a8&amp;type=3#TA_portrait&quot;);"/>
+            <ui:Label text="Teaching Assistant" name="Teacher2Name" class="TeacherName"/>
+            <ui:Label text="$100" name="Teacher2Cost" class="TeacherCost"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="Teacher3" class="Teacher">
+            <ui:VisualElement name="Teacher3Portrait" class="TeacherPortrait" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Teachers/Law/TeacherLaw-Portrait.png?fileID=2800000&amp;guid=18fb547c84ef63247bafe4c3dfe989e1&amp;type=3#TeacherLaw-Portrait&quot;);"/>
+            <ui:Label text="Law Teacher" name="Teacher3Name" class="TeacherName"/>
+            <ui:Label text="$300" name="Teacher3Cost" class="TeacherCost"/>
+        </ui:VisualElement>
     </ui:VisualElement>
     <ui:VisualElement name="Waves" style="border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; position: absolute; height: 10%; width: 10%; top: 2.5%; left: auto; background-color: rgb(232, 232, 232); right: 2%;">
         <ui:Label text="Wave #1&#10;Enemies remaining: ?" name="WaveInfo">

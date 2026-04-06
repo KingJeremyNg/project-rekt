@@ -1,0 +1,8 @@
+Model Information:
+* title:	Carpet
+* source:	https://sketchfab.com/3d-models/carpet-fdf37aa93a3e403585f3c49e297cf626
+* author:	Bala mirnaalini (https://sketchfab.com/suseekaran888)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
