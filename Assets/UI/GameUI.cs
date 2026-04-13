@@ -2,7 +2,6 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
-using System;
 
 public class GameUI : MonoBehaviour
 {
@@ -23,6 +22,10 @@ public class GameUI : MonoBehaviour
     void Awake()
     {
         ui = GetComponent<UIDocument>().rootVisualElement;
+    }
+
+    void Start()
+    {
         mainCamera = Camera.main;
         Floor = GameObject.Find("Floor").GetComponent<Floor>();
     }

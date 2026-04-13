@@ -6,7 +6,7 @@ public class MainMenu : MonoBehaviour
     private VisualElement ui;
     private Button PlayButton;
     private Button QuitButton;
-    public Transform gameUI;
+    // public Transform gameUI;
 
     void Awake()
     {
@@ -21,16 +21,12 @@ public class MainMenu : MonoBehaviour
         QuitButton.clickable.clicked += OnQuitButtonClicked;
     }
 
-    void Start()
-    {
-        Time.timeScale = 0f; // Pause the game
-    }
-
     private void OnPlayButtonClicked()
     {
-        gameUI.gameObject.SetActive(true); // Show the game UI
-        gameObject.SetActive(false); // Hide the main menu
-        Time.timeScale = 1f; // Unpause the game
+        // gameUI.gameObject.SetActive(true); // Show the game UI
+        // gameObject.SetActive(false); // Hide the main menu
+        // Time.timeScale = 1f; // Unpause the game
+        GameManager.Instance.UpdateGameState(GameState.Narrative);
     }
 
     private void OnQuitButtonClicked()

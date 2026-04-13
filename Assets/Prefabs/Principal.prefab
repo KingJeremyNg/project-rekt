@@ -302,6 +302,8 @@ MonoBehaviour:
   attackRange: 5
   lastAttackTime: 0
   target: {fileID: 0}
+  yOffset: 0.75
+  DamagePopUpPrefab: {fileID: 2085265064492099552, guid: a8759976fcf5edb4e8fd978b96294f97, type: 3}
 --- !u!114 &365258626286818911
 MonoBehaviour:
   m_ObjectHideFlags: 0

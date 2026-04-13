@@ -55,7 +55,7 @@ public class Basketball : MonoBehaviour
                 return;
             }
 
-            Vector3 yOffset = Vector3.up * target.localScale.y / 1f;
+            Vector3 yOffset = Vector3.up * target.localScale.y * 0.75f;
             // Move towards the target
             transform.position = Vector3.MoveTowards(transform.position, target.position + yOffset, Time.deltaTime * 10f);
 

@@ -6,7 +6,7 @@ public class PathFinding : MonoBehaviour
     public static PathFinding Instance { get; private set; }
     public NodeGrid NodeGrid;
 
-    void Start()
+    void Awake()
     {
         Instance = this;
     }

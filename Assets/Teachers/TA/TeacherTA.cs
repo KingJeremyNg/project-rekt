@@ -8,13 +8,14 @@ public class TeacherTA : MonoBehaviour
     void Start()
     {
         teacherScript = GetComponent<Teacher>();
-        teacherScript.atk = 10f;
+        teacherScript.atk = 5f;
         teacherScript.hp = 10f;
         teacherScript.maxHp = 10f;
-        teacherScript.atkSpeed = 0.5f;
-        teacherScript.attackRange = 1f;
+        teacherScript.atkSpeed = 1f;
+        teacherScript.attackRange = 0.9f;
         teacherScript.yOffset = 0.72f;
         transform.position += Vector3.up * teacherScript.yOffset;
+        teacherScript.SetAnimationSpeed(teacherScript.atkSpeed);
     }
 
     private void Attack()

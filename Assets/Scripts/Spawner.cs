@@ -2,35 +2,48 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    public Transform[] spawnPoints;
     public GameObject[] studentPrefabs;
-    public float spawnInterval = 2f;
-    private float lastSpawnTime = 0f;
+    // public float spawnInterval = 2f;
+    // private float lastSpawnTime = 0f;
     private float tileOffset = 0.5f;
+    public Transform[] Barriers;
+    private Rigidbody rb;
 
-    public void SpawnStudent()
+    void Awake()
     {
-        if (spawnPoints.Length == 0 || studentPrefabs.Length == 0) return;
-        if (TeacherPrincipal.Instance == null) return;
-        int spawnIndex = Random.Range(0, spawnPoints.Length);
-        int studentIndex = Random.Range(0, studentPrefabs.Length);
-        int randomCount = Random.Range(1, 3);
-        for (int i = 0; i < randomCount; i++)
+        rb = GetComponent<Rigidbody>();
+    }
+
+    void OnEnable()
+    {
+        foreach (Transform barrier in Barriers)
         {
-            Vector3 spawnPosition = spawnPoints[spawnIndex].position;
+            barrier.GetComponent<BreakObject>().Break();
+        }
+        rb.AddExplosionForce(500f, transform.position, 5f);
+    }
+
+    public void SpawnStudent(int count = 0)
+    {
+        if (studentPrefabs.Length == 0) return;
+        if (TeacherPrincipal.Instance == null) return;
+        for (int i = 0; i < count; i++)
+        {
+            Vector3 spawnPosition = transform.position;
             spawnPosition.x += Random.Range(-tileOffset, tileOffset);
             spawnPosition.z += Random.Range(-tileOffset, tileOffset);
-            GameObject student = Instantiate(studentPrefabs[studentIndex], spawnPosition, spawnPoints[spawnIndex].rotation);
-            student.GetComponent<Student>().target = TeacherPrincipal.Instance.transform;
+            int studentIndex = Random.Range(0, studentPrefabs.Length);
+            Instantiate(studentPrefabs[studentIndex], spawnPosition, transform.rotation);
         }
     }
 
-    void Update()
-    {
-        if (Time.time - lastSpawnTime >= spawnInterval)
-        {
-            SpawnStudent();
-            lastSpawnTime = Time.time;
-        }
-    }
+    // void Update()
+    // {
+    //     if (GameManager.Instance.currentState != GameState.WaveInProgress) return;
+    //     if (Time.time - lastSpawnTime >= spawnInterval)
+    //     {
+    //         SpawnStudent();
+    //         lastSpawnTime = Time.time;
+    //     }
+    // }
 }

@@ -11,17 +11,11 @@ public class TeacherPE : MonoBehaviour
         teacherScript.atk = 2f;
         teacherScript.hp = 10f;
         teacherScript.maxHp = 10f;
-        teacherScript.atkSpeed = 0.5f;
+        teacherScript.atkSpeed = 1f;
         teacherScript.attackRange = 5f;
         teacherScript.yOffset = 0.75f;
         transform.position += Vector3.up * teacherScript.yOffset;
-    }
-
-    // Call this method to perform the attack action, which instantiates a basketball projectile that moves towards the target student and deals damage upon impact.
-    private void Attack()
-    {
-        teacherScript.lastAttackTime = Time.time;
-        teacherScript.PlayAttackAnimation();
+        teacherScript.SetAnimationSpeed(teacherScript.atkSpeed);
     }
 
     public void ShootBasketball()
@@ -38,7 +32,7 @@ public class TeacherPE : MonoBehaviour
         if ((Time.time - teacherScript.lastAttackTime) > (1f / teacherScript.atkSpeed))
         {
             teacherScript.FindTarget(teacherScript.attackRange);
-            if (teacherScript.target != null) Attack();
+            if (teacherScript.target != null) teacherScript.Attack();
         }
         if (teacherScript.target == null) teacherScript.PlayIdleAnimation();
     }

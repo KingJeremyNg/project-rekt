@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 public class CameraControls : MonoBehaviour
 {
+    public static CameraControls Instance { get; private set; }
     InputAction MoveCameraAction;
     InputAction RotateCameraLeftAction;
     InputAction RotateCameraRightAction;
@@ -13,9 +14,18 @@ public class CameraControls : MonoBehaviour
     private float rotationY = 0f;
     private float lastRotationTime = 0f;
     private float rotationSpeed = 135f;
+    private Vector3 initialPosition;
+    private Quaternion initialRotation;
 
-    private void Start()
+    void Awake()
     {
+        Instance = this;
+    }
+
+    void Start()
+    {
+        initialPosition = transform.GetChild(0).position;
+        initialRotation = transform.GetChild(0).rotation;
         mainCamera = Camera.main;
         MoveCameraAction = InputSystem.actions.FindAction("Move");
         RotateCameraLeftAction = InputSystem.actions.FindAction("RotateLeft");
@@ -24,13 +34,32 @@ public class CameraControls : MonoBehaviour
         ZoomOutAction = InputSystem.actions.FindAction("ZoomOut");
     }
 
-    private void RotateCamera(float degrees)
+    public void RotateCamera(float degrees)
     {
         lastRotationTime = Time.time;
         rotationY += degrees;
     }
 
-    void Update()
+    public void ResetCamera()
+    {
+        mainCamera.orthographicSize = 5f;
+        mainCamera.transform.rotation = initialRotation;
+        mainCamera.transform.position = initialPosition;
+    }
+
+    private void NarrativeCamera()
+    {
+        float SineWave = Mathf.Sin(Time.time * 0.5f) * 0.1f;
+        Vector3 dolly = new Vector3(SineWave, Mathf.Abs(SineWave), 0);
+        Vector3 targetPosition = GameManager.Instance.NarrativeCameraTarget.position;
+        Vector3 offset = new Vector3(0, 0.25f, -1.5f);
+        Vector3 cameraPosition = targetPosition + offset + dolly;
+        mainCamera.orthographicSize = 1f;
+        mainCamera.transform.position = cameraPosition;
+        mainCamera.transform.LookAt(targetPosition);
+    }
+
+    private void GameCamera()
     {
         Vector2 moveValue = MoveCameraAction.ReadValue<Vector2>();
         mainCamera.transform.Translate(new Vector3(moveValue.x, moveValue.y, 0) * Time.deltaTime * 5f, Space.World);
@@ -50,6 +79,18 @@ public class CameraControls : MonoBehaviour
         if (Quaternion.Angle(transform.rotation, Quaternion.Euler(0, rotationY, 0)) < 0.1f)
         {
             lastRotationTime = 0;
+        }
+    }
+
+    void Update()
+    {
+        if (GameManager.Instance.NarrativeCameraTarget != null)
+        {
+            NarrativeCamera();
+        }
+        else
+        {
+            GameCamera();
         }
     }
 }

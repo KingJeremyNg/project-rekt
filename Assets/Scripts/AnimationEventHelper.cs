@@ -34,6 +34,15 @@ public class AnimationEventHelper : MonoBehaviour
         }
     }
 
+    public void ShootArgument()
+    {
+        TeacherLaw teacherLaw = GetComponentInParent<TeacherLaw>();
+        if (teacherLaw != null)
+        {
+            teacherLaw.ShootArgument();
+        }
+    }
+
     public void PlayPunchSound()
     {
         TeacherPrincipal teacherPrincipal = GetComponentInParent<TeacherPrincipal>();
