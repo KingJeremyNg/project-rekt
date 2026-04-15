@@ -11,7 +11,9 @@ public class GameUI : MonoBehaviour
     private VisualElement Teacher2;
     private VisualElement Teacher3;
     public List<Transform> teachers;
+    private List<int> costs = new List<int> { 150, 100, 200 };
     private Transform selectedTeacher;
+    private int teacherIndex;
     private Camera mainCamera;
     private Floor Floor;
 
@@ -35,11 +37,11 @@ public class GameUI : MonoBehaviour
         Screen = ui.Q<VisualElement>("Screen");
         Screen.AddManipulator(new Clickable(() => OnScreenClicked()));
         Teacher1 = ui.Q<VisualElement>("Teacher1");
-        Teacher1.AddManipulator(new Clickable(() => OnTeacherClicked(1)));
+        Teacher1.AddManipulator(new Clickable(() => OnTeacherClicked(0)));
         Teacher2 = ui.Q<VisualElement>("Teacher2");
-        Teacher2.AddManipulator(new Clickable(() => OnTeacherClicked(2)));
+        Teacher2.AddManipulator(new Clickable(() => OnTeacherClicked(1)));
         Teacher3 = ui.Q<VisualElement>("Teacher3");
-        Teacher3.AddManipulator(new Clickable(() => OnTeacherClicked(3)));
+        Teacher3.AddManipulator(new Clickable(() => OnTeacherClicked(2)));
         UpdateUI();
     }
 
@@ -52,8 +54,10 @@ public class GameUI : MonoBehaviour
 
     private void OnTeacherClicked(int teacherNumber)
     {
+        if (GameManager.Instance.currency < costs[teacherNumber]) return;
+        teacherIndex = teacherNumber;
         Floor.ShowIndicators();
-        selectedTeacher = teachers[teacherNumber - 1];
+        selectedTeacher = teachers[teacherNumber];
         PreviewTeacher();
     }
 
@@ -82,6 +86,7 @@ public class GameUI : MonoBehaviour
         {
             if (hit.collider.CompareTag("FloorIndicator"))
             {
+                GameManager.Instance.currency -= costs[teacherIndex];
                 Transform FloorTileTransform = hit.collider.transform.parent;
                 Instantiate(selectedTeacher, FloorTileTransform.position, Quaternion.identity);
                 Floor.GetIndicators(tileToIgnore: FloorTileTransform);
@@ -95,6 +100,11 @@ public class GameUI : MonoBehaviour
         ui.Q<ProgressBar>("HP").highValue = TeacherPrincipal.Instance.GetComponent<Teacher>().maxHp;
         ui.Q<ProgressBar>("HP").value = TeacherPrincipal.Instance.GetComponent<Teacher>().hp;
         ui.Q<Label>("Money").text = GameManager.Instance.currency.ToString();
+        ui.Q<Label>("Score").text = GameManager.Instance.score.ToString();
+        ui.Q<Label>("WaveInfo").text = "Wave\n#" + (WaveManager.Instance.currentWave + 1);
+        ui.Q<Label>("Teacher1Cost").text = costs[0].ToString();
+        ui.Q<Label>("Teacher2Cost").text = costs[1].ToString();
+        ui.Q<Label>("Teacher3Cost").text = costs[2].ToString();
     }
 
     void Update()

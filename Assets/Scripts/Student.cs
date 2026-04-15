@@ -17,7 +17,7 @@ public class Student : MonoBehaviour
     public float tileOffset = 0.25f;
     public float yOffset = 0f;
 
-    private float lastAttackTime = 0f;
+    public float lastAttackTime = 0f;
     // private float distanceToTarget;
     private List<Node> path;
     private int currentPathIndex = 0;
@@ -33,6 +33,8 @@ public class Student : MonoBehaviour
     public float DamagePopUpYOffset = 0.5f;
     public GameObject MoneyPopUpPrefab;
     public float MoneyPopUpYOffset = 1.7f;
+    private float bonusScore = 100;
+    private float timeForBonus;
 
     void Awake()
     {
@@ -46,6 +48,7 @@ public class Student : MonoBehaviour
         mainCamera = Camera.main.transform;
         path = PathFinding.Instance.FindPath(transform.position, TeacherPrincipal.Instance.transform.position);
         RandomTileOffset();
+        timeForBonus = Time.time;
     }
 
     void RandomTileOffset()
@@ -57,14 +60,15 @@ public class Student : MonoBehaviour
     public void DealDamage()
     {
         SoundFXManager.Instance.PlaySound(attackSound, transform, 1f); // TODO CHANGE VOLUME TO MATCH SLIDERS
-        target.GetComponent<Teacher>().TakeDamage(atk);
+        float damage = atk * Random.Range(0.8f, 1.2f);
+        target.GetComponent<Teacher>().TakeDamage(damage);
     }
 
     public void TakeDamage(float damage)
     {
         GameObject damagePopUp = Instantiate(DamagePopUpPrefab, transform.position, Quaternion.identity);
         damagePopUp.transform.Translate(Vector3.up * DamagePopUpYOffset);
-        damagePopUp.GetComponentInChildren<TMP_Text>().text = "-" + damage;
+        damagePopUp.GetComponentInChildren<TMP_Text>().text = "-" + (int)damage;
         hp -= damage;
         StartCoroutine(FlashColor(0.2f));
         hpBar.UpdateHPBar();
@@ -73,9 +77,9 @@ public class Student : MonoBehaviour
 
     IEnumerator FlashColor(float duration)
     {
-        spriteRenderer.color = Color.red; // Change to flash color
+        spriteRenderer.color = Color.red;
         yield return new WaitForSeconds(duration); // Wait for the specified time
-        spriteRenderer.color = Color.white; // Change back to the original color
+        spriteRenderer.color = new Color(1f, 1f * (hp / maxHp), 1f * (hp / maxHp), 1f);
     }
 
     private void Die()
@@ -85,6 +89,7 @@ public class Student : MonoBehaviour
         moneyPopUp.GetComponentInChildren<TMP_Text>().text = "+$" + currencyReward;
         isDead = true;
         GameManager.Instance.currency += currencyReward;
+        GameManager.Instance.score += (int)(maxHp + Mathf.Max(0, bonusScore - (Time.time - timeForBonus) * 10));
         PlayDeathAnimation();
     }
 
@@ -174,12 +179,9 @@ public class Student : MonoBehaviour
         target = newTarget; // Store the target for use in the animation event
     }
 
-    void Update()
+    public void StandardMoveAttack()
     {
-        if (GameManager.Instance.currentState != GameState.WaveInProgress) return;
         if (isDead) return;
-        if (animator.GetBool("isAttacking")) FaceDirectionByCamera();
-        if (animator.GetBool("isMoving")) FaceDirectionByMovement();
         // Check if any teacher is within attack range
         FindTarget(attackRange);
         if (target != null && !target.GetComponent<Teacher>().isDead)
@@ -212,5 +214,12 @@ public class Student : MonoBehaviour
                 }
             }
         }
+    }
+
+    void Update()
+    {
+        if (GameManager.Instance.currentState != GameState.WaveInProgress) return;
+        if (animator.GetBool("isAttacking")) FaceDirectionByCamera();
+        if (animator.GetBool("isMoving")) FaceDirectionByMovement();
     }
 }

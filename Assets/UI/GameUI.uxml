@@ -44,11 +44,14 @@
         </ui:VisualElement>
     </ui:VisualElement>
     <ui:VisualElement name="Waves" style="border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; position: absolute; height: 10%; width: 10%; top: 2.5%; left: auto; background-color: rgb(232, 232, 232); right: 2%;">
-        <ui:Label text="Wave #1&#10;Enemies remaining: ?" name="WaveInfo">
+        <ui:Label text="Wave&#10;#1" name="WaveInfo" style="font-size: 40px; margin-top: 8px; margin-right: 8px; margin-bottom: 8px; margin-left: 8px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
             <Bindings>
                 <ui:DataBinding property="text" data-source-path="currentWave" data-source-type="GameManager, Assembly-CSharp" binding-mode="ToTarget"/>
             </Bindings>
         </ui:Label>
         <ui:VisualElement name="" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI/wave%20info-nobg.png?fileID=2800000&amp;guid=454e253cdfcbb004facfa1803e7dc8a4&amp;type=3#wave info-nobg&quot;); -unity-background-scale-mode: scale-to-fit; position: absolute; height: 256px; width: 113px; top: 1px; left: 105px;"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="Score" style="flex-grow: 1; position: absolute; width: 10%; height: 5%; left: auto; top: 2.5%; border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; background-color: rgb(255, 255, 255); right: 15%;">
+        <ui:Label text="123" name="Score" style="font-size: 32px; -unity-text-align: upper-right;"/>
     </ui:VisualElement>
 </ui:UXML>

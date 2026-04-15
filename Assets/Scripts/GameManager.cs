@@ -9,7 +9,8 @@ public enum GameState
     WavePreparation,
     WaveInProgress,
     Paused,
-    GameOver
+    GameWin,
+    GameOver,
 }
 
 public class GameManager : MonoBehaviour
@@ -18,7 +19,8 @@ public class GameManager : MonoBehaviour
     public GameState currentState;
     public static event Action<GameState> OnGameStateChanged;
 
-    public int currency = 200;
+    public int score = 0;
+    public int currency = 300;
     public List<Transform> floorTiles = new List<Transform>();
     public float LengthOfTile = 1.5f;
     public Transform NarrativeCameraTarget;
@@ -40,22 +42,12 @@ public class GameManager : MonoBehaviour
         currentState = newState;
         switch (newState)
         {
-            case GameState.MainMenu:
-                break;
-            case GameState.Narrative:
-                break;
             case GameState.WavePreparation:
                 HandleWavePreparation();
                 break;
             case GameState.WaveInProgress:
                 HandleWaveInProgress();
                 break;
-            case GameState.Paused:
-                break;
-            case GameState.GameOver:
-                break;
-            default:
-                throw new ArgumentOutOfRangeException(nameof(newState), newState, null);
         }
         OnGameStateChanged?.Invoke(newState);
     }

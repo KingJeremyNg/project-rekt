@@ -7,11 +7,11 @@ public class StudentDelinquent : MonoBehaviour
     void Start()
     {
         studentScript = GetComponent<Student>();
-        studentScript.atk = 2f;
-        studentScript.hp = 10f;
-        studentScript.maxHp = 10f;
+        studentScript.atk = 50f;
+        studentScript.hp = 200f;
+        studentScript.maxHp = 200f;
         studentScript.atkSpeed = 1f;
-        studentScript.attackRange = 1.3f;
+        studentScript.attackRange = 1.2f;
         studentScript.moveSpeed = 1f;
         studentScript.currencyReward = 10;
         studentScript.yOffset = 0.7f;
@@ -20,9 +20,9 @@ public class StudentDelinquent : MonoBehaviour
         studentScript.SetMoveAnimationSpeed(studentScript.moveSpeed);
     }
 
-    // Update is called once per frame
     void Update()
     {
-
+        if (GameManager.Instance.currentState != GameState.WaveInProgress) return;
+        studentScript.StandardMoveAttack();
     }
 }

@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using TMPro;
 
 public class Teacher : MonoBehaviour
 {
@@ -19,6 +20,8 @@ public class Teacher : MonoBehaviour
     private Animator animator;
     private Transform mainCamera;
     private HPBar hpBar;
+    public GameObject DamagePopUpPrefab;
+    public float DamagePopUpYOffset = 0.5f;
 
     public void Awake()
     {
@@ -61,12 +64,16 @@ public class Teacher : MonoBehaviour
     public void DealDamage()
     {
         if (target == null) return;
-        target.GetComponent<Student>().TakeDamage(atk);
+        float damage = atk * Random.Range(0.8f, 1.2f);
+        target.GetComponent<Student>().TakeDamage(damage);
     }
 
     // Teacher takes damage and checks for death
     public void TakeDamage(float damage)
     {
+        GameObject damagePopUp = Instantiate(DamagePopUpPrefab, transform.position, Quaternion.identity);
+        damagePopUp.transform.Translate(Vector3.up * DamagePopUpYOffset);
+        damagePopUp.GetComponentInChildren<TMP_Text>().text = "-" + (int)damage;
         hp -= damage;
         StartCoroutine(FlashColor(0.2f));
         hpBar.UpdateHPBar();
@@ -77,7 +84,7 @@ public class Teacher : MonoBehaviour
     {
         spriteRenderer.color = Color.red; // Change to flash color
         yield return new WaitForSeconds(duration); // Wait for the specified time
-        spriteRenderer.color = Color.white; // Change back to the original color
+        spriteRenderer.color = new Color(1f, 1f * (hp / maxHp), 1f * (hp / maxHp), 1f);
     }
 
     // When the teacher is defeated, clear the circle
@@ -85,7 +92,7 @@ public class Teacher : MonoBehaviour
     {
         // ClearCircleRadius();
         PlayDeathAnimation();
-        transform.position -= Vector3.up * yOffset;
+        GameManager.Instance.score -= (int)maxHp;
         isDead = true;
     }
 
@@ -137,6 +144,7 @@ public class Teacher : MonoBehaviour
         animator.SetBool("isIdle", false);
         animator.SetBool("isAttacking", false);
         animator.SetBool("isDead", true);
+        transform.position -= Vector3.up * (yOffset - 0.15f);
     }
 
     public void FaceDirectionByCamera()

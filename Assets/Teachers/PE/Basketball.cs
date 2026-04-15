@@ -62,6 +62,7 @@ public class Basketball : MonoBehaviour
             // Check if we have reached the target
             if (Vector3.Distance(transform.position, target.position + yOffset) < 0.1f)
             {
+                damage *= Random.Range(0.8f, 1.2f);
                 studentScript.TakeDamage(damage);
                 Bounce();
             }

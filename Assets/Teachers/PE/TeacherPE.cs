@@ -8,9 +8,9 @@ public class TeacherPE : MonoBehaviour
     void Start()
     {
         teacherScript = GetComponent<Teacher>();
-        teacherScript.atk = 2f;
-        teacherScript.hp = 10f;
-        teacherScript.maxHp = 10f;
+        teacherScript.atk = 60f;
+        teacherScript.hp = 200f;
+        teacherScript.maxHp = 200f;
         teacherScript.atkSpeed = 1f;
         teacherScript.attackRange = 5f;
         teacherScript.yOffset = 0.75f;
@@ -28,6 +28,7 @@ public class TeacherPE : MonoBehaviour
 
     void Update()
     {
+        if (GameManager.Instance.currentState != GameState.WaveInProgress) return;
         // Check if it's time to attack based on the attack speed
         if ((Time.time - teacherScript.lastAttackTime) > (1f / teacherScript.atkSpeed))
         {

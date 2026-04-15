@@ -425,6 +425,10 @@ MonoBehaviour:
   target: {fileID: 0}
   isDead: 0
   yOffset: 0.75
+  DamagePopUpPrefab: {fileID: 1637359931371977123, guid: a8759976fcf5edb4e8fd978b96294f97, type: 3}
+  DamagePopUpYOffset: 0.5
+  MoneyPopUpPrefab: {fileID: 5257740362335724042, guid: 9839fc06f95f1ba44b3fa839212da4fd, type: 3}
+  MoneyPopUpYOffset: 1.7
 --- !u!114 &8100651738772337306
 MonoBehaviour:
   m_ObjectHideFlags: 0

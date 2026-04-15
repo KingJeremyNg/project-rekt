@@ -8,6 +8,7 @@ TagManager:
   - Teacher
   - FloorTile
   - FloorIndicator
+  - Breakable
   layers:
   - Default
   - TransparentFX

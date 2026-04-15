@@ -40,6 +40,7 @@ public class Argument : MonoBehaviour
         // Check if we have reached the target
         if (Vector3.Distance(transform.position, target.position + yOffset) < 0.1f)
         {
+            damage *= Random.Range(0.8f, 1.2f);
             studentScript.TakeDamage(damage);
             // SoundFXManager.Instance.PlaySound(hitSound, transform, 1f); // TODO CHANGE VOLUME TO MATCH SLIDERS
             Destroy(gameObject);

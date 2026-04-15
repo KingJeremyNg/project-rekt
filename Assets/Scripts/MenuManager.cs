@@ -5,6 +5,7 @@ public class MenuManager : MonoBehaviour
     public Transform mainMenu;
     public Transform narrativeScreen;
     public Transform gameUI;
+    public Transform gameWinScreen;
     public Transform gameOverScreen;
 
     void Awake()
@@ -23,32 +24,29 @@ public class MenuManager : MonoBehaviour
         {
             case GameState.MainMenu:
                 mainMenu.gameObject.SetActive(true);
-                narrativeScreen.gameObject.SetActive(false);
-                gameUI.gameObject.SetActive(false);
                 Time.timeScale = 0f;
                 break;
             case GameState.Narrative:
                 mainMenu.gameObject.SetActive(false);
                 narrativeScreen.gameObject.SetActive(true);
-                gameUI.gameObject.SetActive(false);
                 Time.timeScale = 1f;
                 break;
             case GameState.WavePreparation:
-                mainMenu.gameObject.SetActive(false);
                 narrativeScreen.gameObject.SetActive(false);
                 gameUI.gameObject.SetActive(true);
-                Time.timeScale = 1f;
                 break;
             case GameState.WaveInProgress:
-                mainMenu.gameObject.SetActive(false);
                 narrativeScreen.gameObject.SetActive(false);
                 gameUI.gameObject.SetActive(true);
-                Time.timeScale = 1f;
+                break;
+            case GameState.GameWin:
+                gameUI.gameObject.SetActive(false);
+                gameWinScreen.gameObject.SetActive(true);
+                Time.timeScale = 0f;
                 break;
             case GameState.GameOver:
-                mainMenu.gameObject.SetActive(false);
-                narrativeScreen.gameObject.SetActive(false);
-                gameUI.gameObject.SetActive(true);
+                gameUI.gameObject.SetActive(false);
+                gameOverScreen.gameObject.SetActive(true);
                 Time.timeScale = 0f;
                 break;
         }
