@@ -5,11 +5,17 @@ public class PathFinding : MonoBehaviour
 {
     public static PathFinding Instance { get; private set; }
     public NodeGrid NodeGrid;
+    // public Transform seeker, target;
 
     void Awake()
     {
         Instance = this;
     }
+
+    // void Update()
+    // {
+    //     NodeGrid.path = FindPath(seeker.position, target.position);
+    // }
 
     public List<Node> FindPath(Vector3 startPos, Vector3 targetPos)
     {

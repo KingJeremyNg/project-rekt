@@ -8,16 +8,16 @@ A video game concept derived from a group project during my undergraduate years.
 
 - Isometric grid based tower defense game set in a school environment where students are revolting en masse against the institute.
 - Features placeable barriers and teacher "turrets" to fight against the student invasion over the school campus.
-- Features Teamfight Tactics inspired grid movement and augments for added gameplay variance.
+<!-- - Features Teamfight Tactics inspired grid movement and augments for added gameplay variance. -->
 - Narrative is delivered through Danganronpa visual novel styled dialogue in-between stages and during stage gameplay when pinnacle scripted events occur.
-- Core aesthetics for this game is sensation through sound, effects and the act of slowing/defeating waves of students.
-- Main platforms are PC.
+- Core aesthetics for this game is sensation through sound, effects and the act of defeating waves of enemies.
+- Main platform is PC.
 - Business model for this game will be a one time purchase to play forever with optional cosmetic skins for teachers.
 
 ## Art Style / Theme
 
-- User Interface Style - Through the UI, the information that must be shown are: defence levels, available currency, wave number, turret selection buttons, tooltips when selecting/hovering entities, game speed and game options.  
-![ui](./Media/style1.png)
+- User Interface Style - The information that must be shown are: defence levels, available currency, wave number, turret selection buttons, tooltips when selecting/hovering entities, game speed and game options.  
+![ui](./Media/style1.png) 
 
 - Environments - Common school locations with classroom, library, courtyard and gym as an example.   
 ![environments](./Media/style2.png)
@@ -25,16 +25,24 @@ A video game concept derived from a group project during my undergraduate years.
 - Characters - Generally students/teachers with standout traits.
     - Students
         - Code Monkey - Computer Science student but can jump over obstacles.
+        - Delinquent
+        - Weeb
+    - Star Students
+        - These are unique exeptional students that perform beyond an average student. Typically reserved for each stage's final boss.  
+        - Mutant Student - Final boss of stage 1. Can break through environments that are typically not expected to be destroyed, like walls and large permanent barricades. He traverses directly to the principal and generally one-shots all characters.
     - Teachers
+        - Principal - The main defense target and leader of the FDF. Uses his fists to defend his school, the old fashioned way.
         - PE Teacher - Launches basketballs that bounce between targets.  
         - Law Teacher - Wear down students with logical arguments, dealing high single target damage.  
         - Biology Teacher - Rapidly grows plants that spits seeds at high speeds and fire rate.  
 - Below is an example of 2D sprites and art theme.  
 ![characters](./Media/style3.png)
 
-- Rendering Style - Cell shaded or stylized 3D environments and objects while characters will be 2D sprites.  
-<!-- __TODO BE MORE SPECIFIC. REFERENCES ARE CONFUSING. THINK ABOUT WHICH ONE IS A BETTER CHOICE FOR MY GAME. THINK ABOUT HIGH FANTASY ELEMENTS IN THE DESIGN__   -->
-![rendering](./Media/style4.png)
+- Rendering Style - Isometric camera with a mix of 2d and 3d elements.
+    - 2d sprite characters in 3d environments.  
+    ![rendering](./Media/style4.png)
+    - 3d environments with isometric view.  
+    ![rendering](./Media/style5.jpeg)
 
 ## Story
 
@@ -48,26 +56,34 @@ Deploy teachers and obstacles to prevent the students from taking over the campu
 ## Screens, UI, UX
 
 - Defending a wave of students.  
-<!-- - __TODO MAJOR CONSIDERATION IS CAMERA__   -->
 ![ui](./Media/ui.png)
 
 - Tooltip when selecting students, teachers or structures  
 ![ui-tooltip](./Media/ui-tooltip.png)
-
-## Game Economy
-
-Each teacher will have at least 1 optional skin purchaseable for $2.99 delivered through DLC. It is something to add to monetisation but not interfere with core gameplay.
-
-## Asset List
-
-TBD
 
 ## Level Schema and Sample Level Design
 
 5 stages that start at the principal's office AKA the last line of defence. Successfully defend each location and retake the school in the following order:  
 Principal's Office -> Library -> Gym -> Classroom -> Courtyard  
 
-SAMPLE TBD
+- Sample of Principal's Office
+![sample](./Media/sample.png)
+
+## Game Mechanics to Implement
+
+- TFT augments to tweak teacher abilities and promote a playstyle.
+
+## Game Economy
+
+Each teacher will have at least 1 optional skin purchaseable for $2.99 delivered through DLC. It is something to add to monetisation but not interfere with core gameplay.
+
+## Community Engagement
+
+Actively engage with community members through official Discord server and Steam forums to collect feedback. The purpose is to gauge player sentiment and understand what needs to change.
+
+<!-- ## Asset List
+
+TBD -->
 
 ## Development Pipeline
 
@@ -82,6 +98,18 @@ SAMPLE TBD
 ## Risks
 
 This game heavily depends on visual appeal and stylized characters. Reach out early to artists to collaborate.
+
+## Integration of Feedback
+
+- _Slow or awkward movment_  
+Opted to use continuous movement instead of grid cell movement. It felt awkward that students are invading but they are stopping in place every second. Initially, I wanted to have more TFT inspired movement but it is now scrapped.
+
+- _Player understanding and game clarity_ **TBD**  
+Currently it is difficulty for the player to quickly understand the action of placing teachers. Players also have issues with clarity in areas where there are large number of entities in view. It can be difficult to differentiate teachers from students.
+
+## Post-launch Content
+
+If there is player demand for more content, consider looking into ways to add bonus stories through DLC. Additionally, free content updates like an endless mode can be considered.
 
 ## Team and Budget
 
@@ -99,11 +127,11 @@ Budget:
 
 ## Schedule
 
-1. Planning and Ideation: `2026 JAN 1 to FEB 1`
-2. Pre-Production: `2026 FEB 1 to MAR 15`
-3. Production: `2026 MAR 16 to APR 15`
-4. Testing and QA: `2026 APR 16 to MAY 31`
-5. Post-Production: `2026 JUN 1 to 2027 JAN 1`
+1. Planning and Ideation: `2026 JAN 1 to FEB 28`
+2. Pre-Production: `2026 MAR 1 to APR 31`
+3. Production: `2026 MAY 1 to JULY 30`
+4. Testing and QA: `2026 AUG 1 to SEP 30`
+5. Post-Production: `2026 OCT 1 to 2027 JAN 1`
 
 ## References
 
